@@ -1,18 +1,19 @@
 {
+  "homepage": "https://modelcompressiongroup.github.io",
   "name": "ample-ai",
-  "description": "A website built with passion.",
+  "description": "A website.",
   "private": false,
   "version": "0.1.1",
-  "homepage": "https://modelcompressiongroup.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
-    "dev": "npm run dev",
-    "build": "npm run build",
-    "preview": "npm run preview"
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.1.11",
@@ -32,7 +33,6 @@
   "license": "ISC",
   "dependencies": {
     "@tailus/themer": "^0.0.5",
-    "gh-pages": "^6.1.1",
     "swiper": "^11.0.6"
   }
 }
