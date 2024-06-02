@@ -1,0 +1,1 @@
+import{S as e,P as a}from"./effect-cards-CYhrYHxb.js";new e(".proofSlides",{effect:"cube",cubeEffect:{slideShadows:!1,shadow:!1,shadowOffset:20,shadowScale:.94},loop:!0,autoplay:{delay:3e3,duration:500},grabCursor:!0,modules:[a],centeredSlides:!0,pagination:{el:".swiper-pagination"}});
