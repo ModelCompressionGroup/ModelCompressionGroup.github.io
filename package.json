@@ -1,15 +1,18 @@
 {
   "homepage": "https://modelcompressiongroup.github.io",
   "name": "ample-ai",
-  "description": "A website.",
-  "private": false,
   "version": "0.1.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@tailus/themer": "^0.0.5",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
@@ -19,20 +22,5 @@
     "prettier-plugin-tailwindcss": "^0.1.11",
     "tailwindcss": "^3.4.1",
     "vite": "^5.2.12"
-  },
-  "main": "main.js",
-  "keywords": [
-    "tailwindcss",
-    "tailus",
-    "boilerplate",
-    "html",
-    "vite",
-    "tailus-themer"
-  ],
-  "author": "Raphael Maier",
-  "license": "ISC",
-  "dependencies": {
-    "@tailus/themer": "^0.0.5",
-    "swiper": "^11.1.4"
   }
 }
