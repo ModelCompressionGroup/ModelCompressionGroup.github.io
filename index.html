@@ -19,6 +19,21 @@
         <!-- Google tag (gtag.js) --> 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ392ZF0QX"></script>
         <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-DQ392ZF0QX'); </script>
+        <script>
+            function initApollo() {
+                var randomString = Math.random().toString(36).substring(7);
+                var scriptElement = document.createElement("script");
+                scriptElement.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + randomString;
+                scriptElement.async = true;
+                scriptElement.defer = true;
+                scriptElement.onload = function() {
+                    window.trackingFunctions.onLoad({ appId: "6665ec708bd70703a112d2e9" });
+                };
+                document.head.appendChild(scriptElement);
+            }
+        
+            initApollo();
+        </script>
     </head>
     
     <body class="bg-white">
