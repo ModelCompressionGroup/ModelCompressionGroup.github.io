@@ -3,12 +3,11 @@ title: "Energy Management: Siemens"
 date: "2024-06-16"
 author: "AmpleAI"
 preview: "Edge AI optimizes Siemens' energy management by enabling real-time adjustments, crucial for reducing costs and enhancing sustainability. Deploying this technology ensures efficient energy usage and aligns with Siemens' commitment to environmental responsibility."
-slug: "energy-management-siemens"
+slug: "2-energy-management-siemens"
 category: "Manufacturing"
 image: "https://plus.unsplash.com/premium_photo-1716999684531-b8f40731a827?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-![Energy Management and Optimization](https://unsplash.com/photos/three-houses-connected-to-a-battery-with-windmills-in-the-background-kIlYKwJZ-bM)
 *Energy Management and Optimization. Picture from Unsplash.*
 
 ## Problem

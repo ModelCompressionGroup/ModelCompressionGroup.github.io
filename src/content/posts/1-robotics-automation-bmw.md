@@ -1,9 +1,9 @@
 ---
 title: "Robotics and Automation: BMW"
 date: "2024-06-16"
-author: "Ample AI"
+author: "AmpleAI"
 preview: "Edge AI revolutionizes BMW's robotic systems by enabling real-time adjustments, crucial for maintaining high precision and efficiency in vehicle manufacturing. Deploying this technology ensures consistent quality and streamlines production processes."
-slug: "robotics-automation-bmw"
+slug: "1-robotics-automation-bmw"
 category: "Manufacturing"
 image: "https://plus.unsplash.com/premium_photo-1661877302862-1549f9af7a5e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
