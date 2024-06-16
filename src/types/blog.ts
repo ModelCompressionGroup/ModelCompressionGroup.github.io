@@ -4,5 +4,7 @@ export interface Blog {
   preview: string;
   author: string;
   date: string;
+  image: string;  // Path to the image
+  content: string;  
 }
 

@@ -15,17 +15,13 @@ const BlogCarousel = ({ blogData }: { blogData: Blog[] }) => {
         modules={[Navigation, Pagination]}
         spaceBetween={20}
         slidesPerView={1}
-        pagination={{ clickable: true, el: '.custom-pagination' }}
-        navigation={{
-          prevEl: '.custom-prev',
-          nextEl: '.custom-next',
-        }}
+        navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
+        pagination={{ clickable: true }}
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
-        className="relative"
       >
         {blogData.map((blog) => (
           <SwiperSlide key={blog.slug}>
@@ -33,19 +29,6 @@ const BlogCarousel = ({ blogData }: { blogData: Blog[] }) => {
           </SwiperSlide>
         ))}
       </Swiper>
-
-      {/* Custom Navigation */}
-      <div className="flex justify-center mt-4 space-x-4">
-        <button className="custom-prev w-8 h-8 bg-gray-700 text-white rounded-full flex items-center justify-center hover:bg-gray-800 focus:outline-none">
-          ←
-        </button>
-        <button className="custom-next w-8 h-8 bg-gray-700 text-white rounded-full flex items-center justify-center hover:bg-gray-800 focus:outline-none">
-          →
-        </button>
-      </div>
-
-      {/* Custom Pagination */}
-      <div className="custom-pagination flex justify-center mt-4 space-x-2"></div>
     </div>
   );
 };

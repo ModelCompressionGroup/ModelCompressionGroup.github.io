@@ -1,5 +1,4 @@
 import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
 
 import { Metadata } from "next";
@@ -7,7 +6,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
   description: "This is Blog Details Page for Startup Nextjs Template",
-  // other metadata
 };
 
 const BlogDetailsPage = () => {
@@ -315,16 +313,6 @@ const BlogDetailsPage = () => {
                     mattis vulputate cupidatat.
                   </p>
                   <div className="items-center justify-between sm:flex">
-                    <div className="mb-5">
-                      <h4 className="mb-3 text-sm font-medium text-body-color">
-                        Popular Tags :
-                      </h4>
-                      <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
-                      </div>
-                    </div>
                     <div className="mb-5">
                       <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
                         Share this post :
