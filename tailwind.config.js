@@ -45,6 +45,7 @@ module.exports = {
           light: "#F0F2F9",
         },
         secondary: "#00509E",
+        info: "#00bfff"
       },
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
