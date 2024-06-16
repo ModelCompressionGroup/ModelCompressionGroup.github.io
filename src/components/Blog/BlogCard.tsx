@@ -26,7 +26,7 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
           </h3>
           <hr className="my-4 border-gray-200 dark:border-gray-700" />
           <p className="mb-6 text-base font-medium text-body-color dark:text-white">
-            {truncateText(preview, 100)} {/* Adjust character limit as needed */}
+            {truncateText(preview, 200)} {/* Adjust character limit as needed */}
           </p>
         </div>
         <div className="flex items-center mt-auto">
