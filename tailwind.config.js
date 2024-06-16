@@ -28,7 +28,7 @@ module.exports = {
         white: "#FFFFFF",
         black: "#121723",
         dark: "#1D2430",
-        primary: "#4A6CF7",
+        primary: "#002D72",
         yellow: "#FBB040",
         "bg-color-dark": "#171C28",
         "body-color": {
@@ -44,7 +44,7 @@ module.exports = {
           dark: "#1E232E",
           light: "#F0F2F9",
         },
-        secondary: "#FFA726", // Define the secondary color here
+        secondary: "#00509E",
       },
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",

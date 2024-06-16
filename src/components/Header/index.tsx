@@ -69,7 +69,7 @@ const Header = () => {
                     height={30}
                     className="hidden w-full dark:block"
                   />
-                  <span className="ml-3 text-2xl font-bold text-secondary whitespace-nowrap">
+                  <span className="ml-3 text-2xl font-bold text-secondary whitespace-nowrap dark:text-white">
                     Ample AI
                   </span>
                 </div>
