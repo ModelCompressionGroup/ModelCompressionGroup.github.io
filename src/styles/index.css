@@ -96,3 +96,31 @@
     border-radius: 4px;
   }
 }
+
+.title-two-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3.6em; /* Adjust based on your line-height */
+  line-height: 1.8em; /* Ensure this matches the font size/spacing */
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 3.6em; /* Adjust based on your line-height */
+  line-height: 1.8em; /* Ensure this matches the font size/spacing */
+}
+
+hr {
+  border-top: 1px solid #e0e0e0; /* Light gray line */
+  margin: 1rem 0; /* Adjust the vertical spacing as needed */
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem; /* Adjust this value based on your layout requirements */
+}

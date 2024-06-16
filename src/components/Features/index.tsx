@@ -8,7 +8,7 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Edge AI deployment Challenges"
+            title="Edge AI deployment Challenges?"
             paragraph="AI Engineering Teams spend over 50% of time on super manual model optimization tasks."
             center
           />
