@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import MailerLiteButton from "../Common/MailerLiteContactButton";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -43,6 +44,9 @@ const AboutSectionOne = () => {
                     <List text="Expert Support" />
                   </div>
                 </div>
+              </div>
+              <div className="flex justify-start mt-4">
+                <MailerLiteButton />
               </div>
             </div>
 
