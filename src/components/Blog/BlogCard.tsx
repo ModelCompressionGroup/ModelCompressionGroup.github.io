@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const BlogCard = ({ blog }: { blog: Blog }) => {
-  const { title, image, preview, author, date, slug } = blog;
+  const { title, image, preview, author, category, date, slug } = blog;
 
   return (
     <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark">
@@ -26,15 +26,21 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
           <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
             <div className="w-full">
               <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                By {author}
+                {author}
               </h4>
             </div>
           </div>
-          <div className="inline-block">
+          <div className="w-full">
             <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
               Date
             </h4>
             <p className="text-xs text-body-color">{date}</p>
+          </div>
+          <div className="w-full">
+            <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
+              Category
+            </h4>
+            <p className="text-xs text-body-color">{category}</p>
           </div>
         </div>
       </div>

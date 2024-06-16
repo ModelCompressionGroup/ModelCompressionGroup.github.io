@@ -4,6 +4,7 @@ date: "2024-06-16"
 author: "Author One"
 preview: "This is a summary for post one."
 slug: "post-five"
+category: "Manufacturing"
 image: "/images/blog/blog-01.jpg"  # Ensure an image path is provided
 ---
 

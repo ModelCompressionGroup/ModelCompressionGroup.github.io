@@ -20,6 +20,7 @@ export const loadBlogPosts = (): Blog[] => {
       preview: data.preview,
       author: data.author,
       date: data.date,
+      category: data.category,
       image: data.image,
       content,  // Include the content
     };
