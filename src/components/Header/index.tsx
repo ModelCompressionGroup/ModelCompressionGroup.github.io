@@ -47,7 +47,8 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-40 max-w-full px-4 xl:mr-12">
+              {/* Adjust the width here */}
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -58,18 +59,18 @@ const Header = () => {
                   <Image
                     src="/images/logo/logo.png"
                     alt="logo"
-                    width={140}
-                    height={30}
+                    width={40} // Adjust the width to make the logo smaller
+                    height={10} // Adjust the height accordingly
                     className="w-full dark:hidden"
                   />
                   <Image
                     src="/images/logo/logo.png"
                     alt="logo"
-                    width={140}
-                    height={30}
+                    width={40} // Adjust the width to make the logo smaller
+                    height={10} // Adjust the height accordingly
                     className="hidden w-full dark:block"
                   />
-                  <span className="ml-3 text-2xl font-bold text-secondary whitespace-nowrap dark:text-white">
+                  <span className="ml-2 text-xl font-bold text-secondary whitespace-nowrap dark:text-white">
                     Ample AI
                   </span>
                 </div>
