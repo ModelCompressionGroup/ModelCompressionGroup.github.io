@@ -19,7 +19,7 @@ const BlogSection = () => {
       <div className="container">
         <SectionTitle
           title="Our Latest Case Studies"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="See how Edge AI solutions can transform legacy systems into high-efficiency operations. Explore our case studies for detailed insights."
           center
         />
         <BlogCarousel blogData={blogData} />
