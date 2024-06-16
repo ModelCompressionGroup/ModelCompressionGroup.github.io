@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -7,13 +8,11 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
-  // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  // Sticky Navbar
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
     if (window.scrollY >= 80) {
@@ -26,7 +25,6 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
 
-  // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
   const handleSubmenu = (index) => {
     if (openIndex === index) {
@@ -56,23 +54,28 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
-                  src="/images/logo/logo.png"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo.png"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
+                <div className="flex items-center">
+                  <Image
+                    src="/images/logo/logo.png"
+                    alt="logo"
+                    width={140}
+                    height={30}
+                    className="w-full dark:hidden"
+                  />
+                  <Image
+                    src="/images/logo/logo.png"
+                    alt="logo"
+                    width={140}
+                    height={30}
+                    className="hidden w-full dark:block"
+                  />
+                  <span className="ml-3 text-2xl font-bold text-secondary whitespace-nowrap">
+                    Ample AI
+                  </span>
+                </div>
               </Link>
             </div>
-            <div className="flex w-full items-center justify-end px-4"> 
+            <div className="flex w-full items-center justify-end px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
