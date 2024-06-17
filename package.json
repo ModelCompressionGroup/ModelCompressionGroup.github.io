@@ -1,26 +1,35 @@
 {
-  "homepage": "https://modelcompressiongroup.github.io",
-  "name": "ample-ai",
-  "version": "0.1.1",
+  "name": "startup-nextjs-template",
+  "version": "2.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "format": "prettier --write ."
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@tailus/themer": "^0.0.5",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.4",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "next": "^14.2.4",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-modal-video": "^2.0.2",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
     "swiper": "^11.1.4"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "gh-pages": "^6.1.1",
-    "postcss": "^8.4.35",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.1.11",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.2.12"
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.4",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
   }
 }
