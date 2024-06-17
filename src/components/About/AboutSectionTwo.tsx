@@ -8,13 +8,14 @@ const AboutSectionTwo = () => {
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2 text-center">
-            <Link
+            <div className="flex justify-center lg:justify-start mb-6">
+              <Link
                 href="https://tinymlhub.com"
                 className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
               >
-                  <NewTag text="TinyML Hub" />
-            </Link>
-            
+                <NewTag text="Try TinyML Hub" />
+              </Link>
+            </div>
             <div
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"

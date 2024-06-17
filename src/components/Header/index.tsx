@@ -49,24 +49,22 @@ const Header = () => {
             <div className="w-40 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
-                } `}
+                className={`header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-8"}`}
               >
                 <div className="flex items-center">
                   <Image
                     src="/images/logo/logo.png"
                     alt="logo"
-                    width={20} // Smaller width
-                    height={20} // Smaller height to match text
-                    className="w-full dark:hidden"
+                    width={50} // Adjust width
+                    height={50} // Adjust height to match text
+                    className="w-auto h-6 dark:hidden" // Adjust height here
                   />
                   <Image
                     src="/images/logo/logo.png"
                     alt="logo"
-                    width={20} // Smaller width
-                    height={20} // Smaller height to match text
-                    className="hidden w-full dark:block"
+                    width={50} // Adjust width
+                    height={50} // Adjust height to match text
+                    className="hidden w-auto h-6 dark:block" // Adjust height here
                   />
                   <span className="ml-2 text-xl font-bold text-secondary whitespace-nowrap dark:text-white">
                     Ample AI
