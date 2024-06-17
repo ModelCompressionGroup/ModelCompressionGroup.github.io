@@ -5,10 +5,10 @@ author: "AmpleAI"
 preview: "Edge AI revolutionizes GM's maintenance by enabling real-time, predictive analytics, crucial for minimizing downtime and fostering rapid innovation. Deploying this technology is essential for staying competitive and efficient."
 slug: "1-predictive-maintenance-gm"
 category: "Manufacturing"
-image: "https://plus.unsplash.com/premium_photo-1682144983160-b7e962e823d5?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.pexels.com/photos/19233057/pexels-photo-19233057/free-photo-of-assembling-machines-in-factory.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ---
 
-*Automated car assembly line. Picture from Unsplash.*
+[*Photo by Hyundai Motor Group](https://www.pexels.com/photo/assembling-machines-in-factory-19233057/*)
 
 ## Problem
 General Motors (GM), one of the world’s leading automobile manufacturers, operates over 140 sites involved in the manufacture and assembly of automobiles, containing 40 million assets. An example of the asset-intensive nature of the automotive industry is a single assembly line paint shop that costs $500 million, contains thousands of assets, requires upgrades every few years, and has an expected life of 35 years. However, GM grappled with frequent and unexpected equipment breakdowns in their production facilities, leading to significant downtime, substantial delays in the manufacturing process, and escalating maintenance costs. For example, the maintenance in machinery and equipment (M&E) costs GM more than $1 billion in 2018, which is more than 13% of the annual expense in M&E. The root of the problem lay in their reliance on traditional maintenance methods, which were inherently reactive. Instead of predicting and preventing equipment failures, GM often responded to issues only after they had disrupted the production flow. This reactive approach was not only costly but also inefficient, as it often led to extended periods of downtime and production delays. The need for a more proactive and efficient maintenance strategy was evident.

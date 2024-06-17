@@ -5,11 +5,10 @@ author: "AmpleAI"
 preview: "Edge AI revolutionizes BMW's robotic systems by enabling real-time adjustments, crucial for maintaining high precision and efficiency in vehicle manufacturing. Deploying this technology ensures consistent quality and streamlines production processes."
 slug: "1-robotics-automation-bmw"
 category: "Manufacturing"
-image: "https://plus.unsplash.com/premium_photo-1661877302862-1549f9af7a5e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.unsplash.com/photo-1637002722490-5f8ceed9774c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-![Robotic systems in the vehicle manufacturing line](https://unsplash.com/photos/modern-technology-of-assembly-of-cars-the-plant-of-the-automotive-industry-shop-for-the-production-and-assembly-of-machines-top-view-the-process-of-welding-parts-of-the-car-3FCwVL8cBIs)
-*Robotic systems in the vehicle manufacturing line. Picture from Unsplash.*
+*Picture from Unsplash.*
 
 ## Problem
 BMW, a leading luxury car manufacturer, faced a significant challenge in its production process. The precision and efficiency of their robotic systems, particularly for tasks like welding and assembly, needed to meet the high standards required. The robots, while advanced, struggled with variations in the manufacturing environment, which often led to inconsistencies in the tasks they performed. These variations necessitated constant manual adjustments, slowing production and compromising the overall quality and precision of the assembled vehicles.

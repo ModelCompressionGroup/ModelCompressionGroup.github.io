@@ -5,10 +5,11 @@ author: "Ample AI"
 preview: "Edge AI enhances Toyota's worker safety by enabling real-time monitoring and immediate hazard detection, crucial for reducing accidents and improving operational efficiency. Deploying this technology ensures a safer and more productive working environment."
 slug: "3-worker-safety-toyota"
 category: "Supply Chain"
-image: "https://plus.unsplash.com/premium_photo-1681823061730-351d5c90888a?q=80&w=3091&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.unsplash.com/photo-1581091212991-8891c7d4bd9b?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-[*A Worker Operates On The Pad. Picture from Unsplash.*](https://unsplash.com/photos/young-engineer-with-hard-hat-standing-outdoors-by-oil-refinery-using-tablet-copy-space-e1OXSS1z5tI)
+[*ThisisEngineering - Picture from Unsplash.*](https://unsplash.com/photos/man-in-black-jacket-sitting-on-black-chair-WjOWazUPAss?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+  
 
 ## Problem
 Toyota, a global automotive manufacturing giant, recognized the need to enhance worker safety on their manufacturing floors. Despite stringent safety protocols, accidents and injuries were still occurring, posing severe risks to employees’ well-being and impacting operational efficiency. Ensuring a safe working environment was paramount, not only to comply with regulatory requirements but also to uphold Toyota’s commitment to the health and safety of its workforce.

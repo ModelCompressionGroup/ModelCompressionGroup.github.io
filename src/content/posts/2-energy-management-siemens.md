@@ -5,10 +5,9 @@ author: "AmpleAI"
 preview: "Edge AI optimizes Siemens' energy management by enabling real-time adjustments, crucial for reducing costs and enhancing sustainability. Deploying this technology ensures efficient energy usage and aligns with Siemens' commitment to environmental responsibility."
 slug: "2-energy-management-siemens"
 category: "Manufacturing"
-image: "https://plus.unsplash.com/premium_photo-1716999684531-b8f40731a827?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
----
-
-*Energy Management and Optimization. Picture from Unsplash.*
+image: "https://images.unsplash.com/photo-1487875961445-47a00398c267?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+---  
+[*Jason Mavrommatis - Picture from Unsplash.*](https://unsplash.com/photos/wind-turbines-on-snowy-mountain-under-clear-blue-sky-during-daytime-nyL-rzwP-Mk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ## Problem
 Siemens, a global leader in industrial manufacturing, needed to grapple with high energy consumption and escalating costs in their manufacturing facilities. Despite employing various energy-saving measures, Siemens found that their energy usage remained consistently high, contributing to substantial operational costs. The inefficiency in energy management strained the company’s financial resources. It also led to a larger environmental footprint, which was increasingly at odds with Siemens’ commitment to sustainability and corporate social responsibility.

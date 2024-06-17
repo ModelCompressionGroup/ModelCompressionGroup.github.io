@@ -5,10 +5,10 @@ author: "Ample AI"
 preview: "Edge AI enhances Tesla's production lines by enabling real-time customization and adaptability, crucial for reducing downtime and meeting diverse customer demands. Deploying this technology ensures flexible and efficient manufacturing, reinforcing Tesla's innovative edge."
 slug: "1-customizable-production-tesla"
 category: "Manufacturing"
-image: "https://plus.unsplash.com/premium_photo-1681823061730-351d5c90888a?q=80&w=3091&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ---
 
-[*Tesla Model. Picture from Unsplash.*](https://unsplash.com/photos/young-engineer-with-hard-hat-standing-outdoors-by-oil-refinery-using-tablet-copy-space-e1OXSS1z5tI)
+[*Photo by Craig Adderley](https://www.pexels.com/photo/cars-parked-in-front-of-company-building-2449452/.*)
 
 
 ## Problem

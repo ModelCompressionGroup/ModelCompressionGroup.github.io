@@ -5,11 +5,10 @@ author: "AmpleAI"
 preview: "Edge AI revolutionizes Audi's quality control by enabling real-time defect detection, crucial for maintaining high standards and minimizing operational inefficiencies. Deploying this technology ensures consistent quality and reinforces Audi's reputation for excellence."
 slug: "1-quality-control-audi"
 category: "Manufacturing"
-image: "https://images.unsplash.com/photo-1589320011687-3a8686ccf78d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.pexels.com/photos/3862627/pexels-photo-3862627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ---
 
-![Manual vehicle parts inspection](https://unsplash.com/photos/man-in-blue-long-sleeve-shirt-and-blue-denim-jeans-standing-in-front-of-white-table--0y5YZlVoRs)
-*Manual vehicle parts inspection. Picture from Unsplash.*
+![Photo by ThisIsEngineering](https://www.pexels.com/photo/engineers-in-workshop-3862627/)
 
 ## Problem
 Audi, renowned for its high-performance and luxury vehicles, faced a significant challenge in maintaining consistent quality across their production lines. Despite their meticulous manufacturing processes, defects were often identified only after production had been completed. These post-production discoveries of issues like paint imperfections, assembly errors, or other critical defects undermined Audi’s reputation for precision engineering and high quality.

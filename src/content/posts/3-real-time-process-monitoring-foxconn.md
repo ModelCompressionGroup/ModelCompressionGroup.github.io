@@ -5,10 +5,11 @@ author: "AmpleAI"
 preview: "Edge AI enhances Foxconn's process monitoring by enabling real-time adjustments, crucial for maintaining consistent product quality and operational efficiency. Deploying this technology ensures optimal production conditions and reduces variability."
 slug: "3-real-time-process-monitoring-foxconn"
 category: "Supply Chain"
-image: "https://plus.unsplash.com/premium_photo-1681823061730-351d5c90888a?q=80&w=3091&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-[*Manufacturing Line. Picture from Unsplash.*](https://unsplash.com/photos/young-engineer-with-hard-hat-standing-outdoors-by-oil-refinery-using-tablet-copy-space-e1OXSS1z5tI)
+[*MHoma Appliances - Picture from Unsplash.*](https://unsplash.com/photos/a-machine-that-is-inside-of-a-building-_XDK4naBbgw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+  
 
 
 ## Problem
