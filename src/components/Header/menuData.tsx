@@ -14,21 +14,21 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
+    id: 34,
+    title: "TinyML Hub",
+    path: "https://tinymlhub.com",
+    newTab: true,
+  },
+  {
     id: 4,
-    title: "Products",
+    title: "More",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "TinyML Hub",
-        path: "https://tinymlhub.com",
-        newTab: true
-      },
-      {
-        id: 42,
-        title: "Edge Model Architect",
+        title: "About",
         path: "",
-        newTab: false,
+        newTab: false
       },
     ],
   },

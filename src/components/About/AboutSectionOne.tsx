@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="360° Coverage for Scalable Edge AI Operations"
+                title="360° Service for Scalable Edge AI Operations"
                 paragraph="Our comprehensive services are designed to optimize and streamline your AI model deployment, making it easier for engineering teams to manage and enhance their edge AI capabilities."
                 mb="44px"
               />
@@ -40,8 +40,8 @@ const AboutSectionOne = () => {
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Expert Support" />
-                    <List text="Model Compression Suite" />
-                    <List text="Expert Support" />
+                    <List text="Model Selection Suite" />
+                    <List text="Model Compression Hub" />
                   </div>
                 </div>
               </div>
@@ -51,7 +51,7 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <div className="relative mx-auto aspect-[25/24] max-w-[700px] lg:mr-0"> {/* Increased max width */}
                 <div className="relative w-full h-0" style={{ paddingBottom: '96%' }}>
                   <Image
                     src="/images/about/time-consumption-no-background.png"

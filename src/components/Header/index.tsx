@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
+import MailerLiteButton from "../Common/MailerLiteContactButton"; // Import the new MailerLiteButton component
 import menuData from "./menuData";
 
 const Header = () => {
@@ -21,6 +21,7 @@ const Header = () => {
       setSticky(false);
     }
   };
+
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
@@ -76,8 +77,8 @@ const Header = () => {
                 </div>
               </Link>
             </div>
-            <div className="flex w-full items-center justify-end px-4">
-              <div>
+            <div className="flex w-full items-center justify-center px-4 lg:justify-center">
+              <div className="flex w-full items-center justify-center">
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
@@ -162,15 +163,20 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <div>
-                  <ThemeToggler />
-                </div>
+              <div className="hidden lg:flex items-center justify-end pr-4 lg:pr-0">
+                <MailerLiteButton /> {/* MailerLiteButton visible only on larger screens */}
               </div>
             </div>
           </div>
         </div>
       </header>
+      <style jsx>{`
+        @media (max-width: 1024px) {
+          .lg\\:hidden {
+            display: none;
+          }
+        }
+      `}</style>
     </>
   );
 };
