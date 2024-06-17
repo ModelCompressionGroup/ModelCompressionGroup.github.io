@@ -1,11 +1,17 @@
 import Image from "next/image";
 import NewTag from "../Common/NewTag";
 import Link from "next/link";
+import SectionTitle from "../Common/SectionTitle";
 
 const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
+        <SectionTitle
+                title="Why Ample AI?"
+                paragraph="Accelerate Model deployments across edge device series including Trailing Edge Tech."
+                center
+        />
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2 text-center">
             <div className="flex justify-center lg:justify-start mb-6">
