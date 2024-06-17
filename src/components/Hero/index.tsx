@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MailerLiteButton from "../Common/MailerLiteContactButton";
+import NewTag from "../Common/NewTag";
 
 const Hero = () => {
   return (
@@ -29,28 +30,7 @@ const Hero = () => {
                     href="/blog"
                     className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
                   >
-                    <div className="relative flex items-center gap-2">
-                      <span className="block text-sm font-bold px-2 py-0.5 rounded-full text-white bg-info animate-pulse drop-shadow-lg dark:text-white">
-                        NEW
-                      </span>
-                      <span className="relative text-sm font-medium text-gray-700 flex gap-6 dark:text-white">
-                        Edge AI in Manufacturing
-                        <div className="flex items-center -space-x-3 group-hover:-translate-x-1 transition-transform duration-300">
-                          <span className="w-2.5 translate-y-[-0.3px] -translate-x-px opacity-0 h-[1.5px] rounded bg-gray-950 origin-left scale-x-0 transition duration-300 group-hover:opacity-100 group-hover:scale-x-100"></span>
-                          <svg
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="size-4 text-gray-950 -translate-x-2 transition duration-300 group-hover:translate-x-px"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2} // Corrected property
-                          >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7"></path> {/* Corrected properties */}
-                          </svg>
-                        </div>
-                      </span>
-                    </div>
+                    <NewTag text="Edge AI in Manufacturing" />
                   </Link>
                 </div>
               </div>
