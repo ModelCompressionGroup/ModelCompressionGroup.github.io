@@ -9,11 +9,17 @@ const checkIcon = (
   </svg>
 );
 
+const starIcon = (
+  <svg width="16" height="16" viewBox="0 0 24 24" className="fill-current">
+    <path d="M12 .587l3.668 7.429 8.332 1.151-6.064 5.801 1.508 8.198L12 18.896l-7.444 4.27 1.508-8.198L0 9.167l8.332-1.151z"/>
+  </svg>
+);
+
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
+  const List = ({ text, icon = checkIcon }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
+      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary shrink-0">
+        {icon}
       </span>
       {text}
     </p>
@@ -27,26 +33,28 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="360° Service for Scalable Edge AI Operations"
-                paragraph="Our comprehensive services are designed to optimize and streamline your AI model deployment, making it easier for engineering teams to manage and enhance their edge AI capabilities."
+                paragraph="Our comprehensive services are designed to optimize and streamline your AI model development, making it easier for engineering teams to manage and enhance their edge AI capabilities."
                 mb="44px"
               />
 
               <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Empower Your Engineers" />
-                    <List text="Focus on Innovation" />
-                    <List text="50% time reduction" />
-                  </div>
+                <div className="mx-[-12px]">
+                  <div className="w-full px-3 lg:w-full">
+                    <List text="Model Selection and Compression Suite for Target Chips" />
+                    <List text="Multi-Device Model Management Hub" />
+                    <List text="AI Expert Consultant and Support" />
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Expert Support" />
-                    <List text="Model Selection Suite" />
-                    <List text="Model Compression Hub" />
+                    {/* Thin divider */}
+                    <div className="my-6 border-t border-gray-300"></div>
+
+                    <List text="50% development time reduction" icon={starIcon} />
+                    <List text="Faster model development and product launch" icon={starIcon} />
+                    <List text="Empower Your Engineers to focus on innovation" icon={starIcon} />
+                    
                   </div>
                 </div>
               </div>
-              <div className="flex justify-start mt-4">
+              <div className="flex justify-start mt-8">
                 <MailerLiteButton />
               </div>
             </div>
@@ -72,7 +80,7 @@ const AboutSectionOne = () => {
                 {/* Adjusted margin-top to reduce space */}
                 <div className="mt-1 text-center">
                   <Popup
-                    triggerText="Learn more"
+                    triggerText="Learn mode"
                     title="About Our Approach"
                     imageSrc="/images/about/ampleai-timeline.png"
                     imageAlt="Detailed explanation image"

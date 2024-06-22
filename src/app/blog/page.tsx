@@ -21,7 +21,7 @@ export default function BlogPage() {
         <div className="container">
           <div className="relative z-10 w-full mb-6 overflow-hidden rounded-md bg-primary bg-opacity-10 p-6 md:p-7 lg:p-6 xl:p-7"> {/* Reduced padding and margin */}
             <p className="text-left text-base font-medium italic text-body-color">
-              At Ample AI, our mission is to empower engineering teams to pioneer edge AI. We provide cutting-edge solutions and expert support to help teams overcome the challenges of AI model deployment and integration, enabling them to lead the way in technological innovation.
+            At Ample AI, our mission is to empower engineering teams to pioneer edge AI. We provide cutting-edge solutions and expert support to help teams overcome the challenges of AI model development and integration on edge devices, enabling them to lead the way in technological innovation.
             </p>
             <span className="absolute left-0 top-0 z-[-1]">
               <svg
