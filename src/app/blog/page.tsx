@@ -1,19 +1,14 @@
 import Breadcrumb from '@/components/Common/Breadcrumb';
-import dynamic from 'next/dynamic';
 import { loadBlogPosts } from '@/utils/loadBlogPosts';
 import { Blog } from '@/types/blog';
 import { Metadata } from 'next';
-
+import BlogCard from '@/components/Blog/BlogCard';
 
 export const metadata: Metadata = {
   title: "Ample AI: Edge AI Case Studies",
   description: "Explore our case studies to see how Ample AI is empowering engineering teams to pioneer edge AI solutions across diverse industries.",
   keywords: "TinyML, Edge Device, how to use edge computing, how to use edge ai, engineering leaders,case studies, Edge Computing, AI solutions, manufacturing technology, industrial IoT, real-time quality control, warehouse automation, technology for manufacturing",
 };
-
-const BlogCarousel = dynamic(() => import('@/components/Blog/BlogCarousel'), {
-  ssr: false,
-});
 
 export default function BlogPage() {
   const blogData: Blog[] = loadBlogPosts();
@@ -164,9 +159,13 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="pb-[60px] pt-[30px]"> {/* Reduced padding */}
+      <section className="pb-[60px] pt-[30px]">
         <div className="container">
-          <BlogCarousel blogData={blogData} />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {blogData.map((blog, index) => (
+              <BlogCard key={index} blog={blog} />
+            ))}
+          </div>
         </div>
       </section>
     </>
