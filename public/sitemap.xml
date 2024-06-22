@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://ampleai.io/</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>https://ampleai.io</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<!-- Case Study Pages -->
+	<url>
+		<loc>http://ampleai.io/blog/posts/1-customizable-production-tesla</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog/posts/1-predictive-maintenance-gm</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog/posts/1-quality-control-audi</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog/posts/1-robotics-automation-bmw</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog/posts/2-energy-management-siemens</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog/posts/3-real-time-process-monitoring-foxconn</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog/posts/3-supply-chain-optimization-caterpillar</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+	<url>
+		<loc>http://ampleai.io/blog/posts/3-worker-safety-toyota</loc>
+		<lastmod>2024-06-22</lastmod>
+	</url>
+</urlset>
