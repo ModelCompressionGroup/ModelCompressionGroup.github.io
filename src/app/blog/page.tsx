@@ -1,8 +1,15 @@
 import Breadcrumb from '@/components/Common/Breadcrumb';
-import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import { loadBlogPosts } from '@/utils/loadBlogPosts';
 import { Blog } from '@/types/blog';
+import { Metadata } from 'next';
+
+
+export const metadata: Metadata = {
+  title: "Ample AI: Edge AI Case Studies",
+  description: "Explore our case studies to see how Ample AI is empowering engineering teams to pioneer edge AI solutions across diverse industries.",
+  keywords: "TinyML, Edge Device, how to use edge computing, how to use edge ai, engineering leaders,case studies, Edge Computing, AI solutions, manufacturing technology, industrial IoT, real-time quality control, warehouse automation, technology for manufacturing",
+};
 
 const BlogCarousel = dynamic(() => import('@/components/Blog/BlogCarousel'), {
   ssr: false,
@@ -13,10 +20,6 @@ export default function BlogPage() {
 
   return (
     <>
-      <Head>
-        <title>Case Studies - Ample AI</title>
-        <meta name="description" content="Explore our case studies to see how Ample AI is empowering engineering teams to pioneer edge AI solutions across diverse industries." />
-      </Head>
       <Breadcrumb
         pageName="Case Studies"
         description="Explore our case studies to see how Ample AI is empowering engineering teams to pioneer edge AI solutions across diverse industries."

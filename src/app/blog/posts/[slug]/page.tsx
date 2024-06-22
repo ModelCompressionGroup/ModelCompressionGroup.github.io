@@ -4,7 +4,8 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import Image from 'next/image';
-import Head from 'next/head';
+import { loadBlogPost } from '@/utils/loadBlogPost';
+import { Metadata } from 'next';
 
 const postsDirectory = path.join(process.cwd(), 'src/content/posts');
 
@@ -15,12 +16,20 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }): Promise<Metadata> {
+  const { slug } = params;
+  const matterResult = loadBlogPost(slug);
+
+  return {
+    title: matterResult.title || 'Ample AI - Case Study',
+    description: matterResult.preview || 'Explore our case studies on edge AI solutions by Ample AI.',
+    keywords: (matterResult.keywords || 'case studies, edge AI, AI deployment, Ample AI, deploy edge ai to chip').split(','),
+  };
+}
+
 export default async function BlogPost({ params }) {
   const { slug } = params;
-  const fullPath = path.join(postsDirectory, `${slug}.md`);
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-  const matterResult = matter(fileContents);
+  const matterResult = loadBlogPost(slug);
 
   const processedContent = await remark()
     .use(html)
@@ -29,17 +38,13 @@ export default async function BlogPost({ params }) {
 
   return (
   <>
-    <Head>
-        <title>{matterResult.data.title}</title>
-        <meta name="description" content={matterResult.data.preview || 'Edge AI Case Studies by Ample AI.'} />
-    </Head>
     <section className="pb-[120px] pt-[150px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-8/12">
             <article>
               <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                {matterResult.data.title}
+                {matterResult.title}
               </h2>
               <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -55,7 +60,7 @@ export default async function BlogPost({ params }) {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span>{matterResult.data.author}</span>
+                          By <span>{matterResult.author}</span>
                         </span>
                       </div>
                     </div>
@@ -79,7 +84,7 @@ export default async function BlogPost({ params }) {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        {matterResult.data.date}
+                        {matterResult.date}
                       </p>
                     </div>
                   </div>
@@ -88,7 +93,7 @@ export default async function BlogPost({ params }) {
                       href="#"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      {matterResult.data.category}
+                      {matterResult.category}
                     </a>
                   </div>
               </div>
@@ -97,7 +102,7 @@ export default async function BlogPost({ params }) {
               <div className="mb-10 flex flex-wrap items-center justify-between border-b border-gray-300 pb-4 dark:border-gray-600">
                     <div className="relative z-10 w-full mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                       <p className="text-left text-base font-medium italic text-body-color">
-                      {matterResult.data.preview}
+                      {matterResult.preview}
                       </p>
                       <span className="absolute left-0 top-0 z-[-1]">
                         <svg
@@ -243,8 +248,8 @@ export default async function BlogPost({ params }) {
                   <div className="mb-10 w-full overflow-hidden rounded">
                       <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                         <Image
-                          src={matterResult.data.image}
-                          alt={matterResult.data.title}
+                          src={matterResult.image}
+                          alt={matterResult.title}
                           fill
                           className="object-cover object-center"
                         />

@@ -6,6 +6,8 @@ preview: "Edge AI revolutionizes Audi's quality control by enabling real-time de
 slug: "1-quality-control-audi"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/3862627/pexels-photo-3862627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+keywords: "quality control at Audi, real-time defect detection with AI, edge AI for automotive, maintaining production quality with AI, Audi's quality assurance, AI in automotive manufacturing, reducing production inefficiencies at Audi"
+---
 ---
 
 ## Problem
