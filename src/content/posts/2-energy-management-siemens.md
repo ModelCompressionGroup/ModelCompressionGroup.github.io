@@ -7,7 +7,6 @@ slug: "2-energy-management-siemens"
 category: "Manufacturing"
 image: "https://images.unsplash.com/photo-1487875961445-47a00398c267?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---  
-[*Jason Mavrommatis - Picture from Unsplash.*](https://unsplash.com/photos/wind-turbines-on-snowy-mountain-under-clear-blue-sky-during-daytime-nyL-rzwP-Mk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ## Problem
 Siemens, a global leader in industrial manufacturing, needed to grapple with high energy consumption and escalating costs in their manufacturing facilities. Despite employing various energy-saving measures, Siemens found that their energy usage remained consistently high, contributing to substantial operational costs. The inefficiency in energy management strained the company’s financial resources. It also led to a larger environmental footprint, which was increasingly at odds with Siemens’ commitment to sustainability and corporate social responsibility.
@@ -33,3 +32,4 @@ In conclusion, by integrating edge AI into its energy management systems, Siemen
 - [Smart Manufacturing: Building the Factory of Tomorrow.](https://assets.new.siemens.com/siemens/assets/api/uuid:3d852046-82ba-4f88-86a0-b55369359c66/final-factorytomorrow-wp.pdf#:~:text=URL%3A%20https%3A%2F%2Fassets.new.siemens.com%2Fsiemens%2Fassets%2Fapi%2Fuuid%3A3d852046)
 - [Siemens Energy halves emissions in its operations.](https://www.siemens-energy.com/global/en/home/press-releases/siemens-energy-halves-emissions-in-its-operations.html)
 - [Unlocking the Power of Artificial Intelligence in Manufacturing with Siemens Industrial Edge.](https://blog.siemens.com/2024/02/unlocking-the-power-of-artificial-intelligence-in-manufacturing-with-siemens-industrial-edge/)
+- [Jason Mavrommatis - Picture from Unsplash.](https://unsplash.com/photos/wind-turbines-on-snowy-mountain-under-clear-blue-sky-during-daytime-nyL-rzwP-Mk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

@@ -1,14 +1,12 @@
 ---
 title: "Quality Control: Audi"
-date: "2024-06-16"
+date: "2024-06-06"
 author: "AmpleAI"
 preview: "Edge AI revolutionizes Audi's quality control by enabling real-time defect detection, crucial for maintaining high standards and minimizing operational inefficiencies. Deploying this technology ensures consistent quality and reinforces Audi's reputation for excellence."
 slug: "1-quality-control-audi"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/3862627/pexels-photo-3862627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ---
-
-![Photo by ThisIsEngineering](https://www.pexels.com/photo/engineers-in-workshop-3862627/)
 
 ## Problem
 Audi, renowned for its high-performance and luxury vehicles, faced a significant challenge in maintaining consistent quality across their production lines. Despite their meticulous manufacturing processes, defects were often identified only after production had been completed. These post-production discoveries of issues like paint imperfections, assembly errors, or other critical defects undermined Audi’s reputation for precision engineering and high quality.
@@ -32,3 +30,4 @@ In conclusion, Audi transformed its production capabilities by integrating edge 
 - [Audi begins roll-out of artificial intelligence for quality control of spot welds.](https://www.audi-mediacenter.com/en/press-releases/audi-begins-roll-out-of-artificial-intelligence-for-quality-control-of-spot-welds-15443)
 - [The Top 5 Problems Vision Inspection Can Solve.](https://sp-automation.co.uk/the-top-5-problems-vision-inspection-can-solve/)
 - [Vision Systems at Keyence.](https://www.keyence.com/products/vision/vision-sys/)
+- [Photo by ThisIsEngineering](https://www.pexels.com/photo/engineers-in-workshop-3862627/)

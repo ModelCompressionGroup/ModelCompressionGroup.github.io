@@ -1,15 +1,12 @@
 ---
 title: "Customizable Production: Tesla"
-date: "2024-06-16"
+date: "2024-06-01"
 author: "Ample AI"
 preview: "Edge AI enhances Tesla's production lines by enabling real-time customization and adaptability, crucial for reducing downtime and meeting diverse customer demands. Deploying this technology ensures flexible and efficient manufacturing, reinforcing Tesla's innovative edge."
 slug: "1-customizable-production-tesla"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ---
-
-[*Photo by Craig Adderley](https://www.pexels.com/photo/cars-parked-in-front-of-company-building-2449452/.*)
-
 
 ## Problem
 Tesla, the innovative electric vehicle manufacturer, faced a significant challenge in providing customers with highly customizable vehicles. The company’s commitment to innovation and customer satisfaction meant it needed a production system capable of handling various models and customizations. However, its traditional production lines could not handle such variability efficiently. Each change in model or customization required extensive retooling, leading to significant downtime and a drop in production efficiency.
@@ -41,3 +38,4 @@ Overall, the deployment of edge AI technology revolutionized Tesla’s manufactu
 - [Tesla Rethinks the Assembly Line](https://www.assemblymag.com/articles/97788-tesla-rethinks-the-assembly-line)
 - [Inside The Tesla Factory: How Automation Is Changing Auto Manufacturing](https://engineecho.com/inside-the-tesla-factory-how-automation-is-changing-auto-manufacturing/)
 - [Unboxing Innovation: How Tesla's New Manufacturing Method Will Transform the Industry](https://www.notateslaapp.com/news/1981/unboxing-innovation-how-teslas-new-manufacturing-method-will-transform-the-industry)
+- [Photo by Craig Adderley](https://www.pexels.com/photo/cars-parked-in-front-of-company-building-2449452/)

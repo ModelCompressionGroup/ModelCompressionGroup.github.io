@@ -8,9 +8,6 @@ category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1621922688758-359fc864071e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-[*Sindy Süßengut - Picture from Unsplash.*](https://unsplash.com/photos/yellow-and-black-heavy-equipment-yo5M9vCzBcM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-  
-
 ## Problem
 Caterpillar, a global leader in manufacturing heavy machinery and equipment, faced significant challenges in managing its extensive supply chain. The lack of real-time visibility into inventory levels often resulted in overstocking or stockouts. Excess inventory increased holding costs and tied up capital that could have been better utilized elsewhere, while stockouts led to production halts and missed sales opportunities. These issues, along with poor coordination and communication among supply chain nodes, caused delays and contributed to increased inventory costs. These challenges were compounded by the complexity and scale of Caterpillar’s operations, which spanned multiple countries and involved numerous suppliers and distribution channels. As a result of these supply chain issues, Caterpillar's backlog had increased significantly. By the end of December 2021, the backlog had grown by more than 60% from the previous year, reaching approximately $23 billion. This backlog reflects the strong demand for Caterpillar's products and the challenges the company faces in obtaining the necessary parts and materials to meet this demand. The inability to meet strong demand due to these bottlenecks has forced Caterpillar to use more expensive shipping methods, further escalating costs.
 
@@ -41,3 +38,5 @@ According to McKinsey, successfully implementing AI-enabled supply-chain managem
 - [Big Data And The Supply Chain: The Big-Supply-Chain Analytics Landscape.](https://www.mckinsey.com/capabilities/operations/our-insights/big-data-and-the-supply-chain-the-big-supply-chain-analytics-landscape-part-1)
 - [The Future Of Artificial Intelligence (AI) At Caterpillar.](https://www.caterpillar.com/en/news/caterpillarNews/2024/future-of-ai-at-caterpillar.html)
 - [Ace Your Supply Chain Game With AI In Supply Chain Use Cases.](https://blog.gramener.com/supply-chain-ai-use-cases/)
+- [Sindy Süßengut - Picture from Unsplash](https://unsplash.com/photos/yellow-and-black-heavy-equipment-yo5M9vCzBcM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+

@@ -8,8 +8,6 @@ category: "Manufacturing"
 image: "https://images.unsplash.com/photo-1637002722490-5f8ceed9774c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-*Picture from Unsplash.*
-
 ## Problem
 BMW, a leading luxury car manufacturer, faced a significant challenge in its production process. The precision and efficiency of their robotic systems, particularly for tasks like welding and assembly, needed to meet the high standards required. The robots, while advanced, struggled with variations in the manufacturing environment, which often led to inconsistencies in the tasks they performed. These variations necessitated constant manual adjustments, slowing production and compromising the overall quality and precision of the assembled vehicles.
 
@@ -34,3 +32,4 @@ Overall, the implementation of edge AI was a strategic move that transformed BMW
 - [Developers Of The Future: BMW Group IT.](https://www.bmwgroup.com/en/news/general/2023/BMWGroupIT.html)
 - [Embedded intelligence & factory robotics at BMW Group.](https://www.devicechronicle.com/factory-robotics)
 - [Driving New Efficiencies in Manufacturing Logistics.](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/car-manufacturing-robotics)
+- [Picture from Unsplash](https://images.unsplash.com/photo-1637002722490-5f8ceed9774c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)

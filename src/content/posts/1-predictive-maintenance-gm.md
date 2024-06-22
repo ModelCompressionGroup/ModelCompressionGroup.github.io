@@ -1,14 +1,12 @@
 ---
 title: "Predictive Maintenance: General Motors (GM)"
-date: "2024-06-16"
+date: "2024-06-04"
 author: "AmpleAI"
 preview: "Edge AI revolutionizes GM's maintenance by enabling real-time, predictive analytics, crucial for minimizing downtime and fostering rapid innovation. Deploying this technology is essential for staying competitive and efficient."
 slug: "1-predictive-maintenance-gm"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/19233057/pexels-photo-19233057/free-photo-of-assembling-machines-in-factory.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ---
-
-[*Photo by Hyundai Motor Group](https://www.pexels.com/photo/assembling-machines-in-factory-19233057/*)
 
 ## Problem
 General Motors (GM), one of the world’s leading automobile manufacturers, operates over 140 sites involved in the manufacture and assembly of automobiles, containing 40 million assets. An example of the asset-intensive nature of the automotive industry is a single assembly line paint shop that costs $500 million, contains thousands of assets, requires upgrades every few years, and has an expected life of 35 years. However, GM grappled with frequent and unexpected equipment breakdowns in their production facilities, leading to significant downtime, substantial delays in the manufacturing process, and escalating maintenance costs. For example, the maintenance in machinery and equipment (M&E) costs GM more than $1 billion in 2018, which is more than 13% of the annual expense in M&E. The root of the problem lay in their reliance on traditional maintenance methods, which were inherently reactive. Instead of predicting and preventing equipment failures, GM often responded to issues only after they had disrupted the production flow. This reactive approach was not only costly but also inefficient, as it often led to extended periods of downtime and production delays. The need for a more proactive and efficient maintenance strategy was evident.
@@ -33,3 +31,4 @@ The impact of integrating edge AI into GM’s maintenance operations was profoun
 - AI For Predictive Maintenance: [Reducing Downtime And Costs](https://redresscompliance.com/ai-predictive-mainteanance/).
 - Siddharth Patil: [Predictive maintenance and the smart factory - Connecting machines to reliability professionals](https://www2.deloitte.com/us/en/pages/operations/articles/predictive-maintenance-and-the-smart-factory.html).
 - Predictive Maintenance Cost Savings: [Reduce Your Maintenance Costs](https://llumin.com/predictive-maintenance-cost-savings-reduce-your-maintenance-costs-llu/).
+- [Photo by Hyundai Motor Group](https://www.pexels.com/photo/assembling-machines-in-factory-19233057/)
