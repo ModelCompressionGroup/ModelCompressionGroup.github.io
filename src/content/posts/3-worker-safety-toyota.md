@@ -8,9 +8,6 @@ category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1581091212991-8891c7d4bd9b?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-[*ThisisEngineering - Picture from Unsplash.*](https://unsplash.com/photos/man-in-black-jacket-sitting-on-black-chair-WjOWazUPAss?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-  
-
 ## Problem
 Toyota, a global automotive manufacturing giant, recognized the need to enhance worker safety on their manufacturing floors. Despite stringent safety protocols, accidents and injuries were still occurring, posing severe risks to employees’ well-being and impacting operational efficiency. Ensuring a safe working environment was paramount, not only to comply with regulatory requirements but also to uphold Toyota’s commitment to the health and safety of its workforce.
 
@@ -39,3 +36,4 @@ Overall, the successful implementation of edge AI for worker safety reinforced T
 - [Invisible AI Partners With Toyota To Install Ground-Breaking Computer Vision Platform Across North America.](https://www.invisible.ai/news/invisible-ai-partners-with-toyota-to-install-ground-breaking-computer-vision-platform-across-north-america)
 - [Movella Enhances Employee Safety Measures At Toyota.](https://www.movella.com/company/press-room/movella-enhances-employee-safety-measures-at-toyota)
 - [How smart manufacturing can alter safety standards.](https://manufacturingdigital.com/smart-manufacturing/how-smart-manufacturing-can-alter-safety-standards)
+- [ThisisEngineering - Picture from Unsplash.](https://unsplash.com/photos/man-in-black-jacket-sitting-on-black-chair-WjOWazUPAss?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

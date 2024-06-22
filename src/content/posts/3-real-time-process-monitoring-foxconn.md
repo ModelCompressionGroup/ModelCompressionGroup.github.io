@@ -8,10 +8,6 @@ category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-[*MHoma Appliances - Picture from Unsplash.*](https://unsplash.com/photos/a-machine-that-is-inside-of-a-building-_XDK4naBbgw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-  
-
-
 ## Problem
 Foxconn, one of the world’s largest electronics manufacturers, faced a significant challenge in maintaining optimal conditions throughout its production processes. Ensuring consistent product quality and operational efficiency was crucial, especially given the high standards required for the electronic components they produce. However, their dynamic and complex manufacturing environment often led to variability in the production processes. This variability could stem from numerous factors, including fluctuations in machinery performance, changes in raw material quality, or even environmental conditions such as temperature and humidity. These challenges were further exacerbated by labor and operational efficiencies at various plants, which made it even more difficult to maintain optimal conditions.
 
@@ -41,3 +37,4 @@ Adopting edge AI technology was a significant investment for Foxconn, but it qui
 - [How Defect Detection AI is Reshaping Quality Assurance in Manufacturing](https://imerit.net/blog/how-defect-detection-ai-is-reshaping-quality-assurance-in-manufacturing/)
 - [The Power of Yield Improvement in Manufacturing](https://www.plataine.com/blog/the-power-of-yield-improvement-in-manufacturing/)
 - [AI in Manufacturing: Transforming Efficiency, Quality, and Sustainability](https://www.linkedin.com/pulse/ai-manufacturing-transforming-efficiency-quality-michael-finocchiaro-51e0e/)
+- [MHoma Appliances - Picture from Unsplash.](https://unsplash.com/photos/a-machine-that-is-inside-of-a-building-_XDK4naBbgw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
