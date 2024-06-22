@@ -6,6 +6,7 @@ preview: "Edge AI enhances Tesla's production lines by enabling real-time custom
 slug: "1-customizable-production-tesla"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+keywords: "Edge AI in Manufacturing, Real-Time Production Adaptability, Customizable Automotive Production, Engineering AI Deployment, Edge Computing for Production Efficiency, AI-Driven Manufacturing Flexibility, Reducing Downtime with AI"
 ---
 
 ## Problem
