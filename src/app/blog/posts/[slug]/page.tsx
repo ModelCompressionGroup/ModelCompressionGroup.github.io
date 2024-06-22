@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const postsDirectory = path.join(process.cwd(), 'src/content/posts');
 
@@ -12,18 +13,6 @@ export async function generateStaticParams() {
   return filenames.map((filename) => ({
     slug: filename.replace(/\.md$/, ''),
   }));
-}
-
-export async function generateMetadata({ params }) {
-  const { slug } = params;
-  const fullPath = path.join(postsDirectory, `${slug}.md`);
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
-  const matterResult = matter(fileContents);
-
-  return {
-    title: matterResult.data.title,
-    description: matterResult.data.preview,
-  };
 }
 
 export default async function BlogPost({ params }) {
@@ -39,6 +28,11 @@ export default async function BlogPost({ params }) {
   const contentHtml = processedContent.toString();
 
   return (
+  <>
+    <Head>
+        <title>{matterResult.data.title}</title>
+        <meta name="description" content={matterResult.data.preview || 'Edge AI Case Studies by Ample AI.'} />
+    </Head>
     <section className="pb-[120px] pt-[150px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap justify-center">
@@ -266,5 +260,6 @@ export default async function BlogPost({ params }) {
         </div>
       </div>
     </section>
+  </>
   );
 }
