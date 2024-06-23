@@ -2,7 +2,7 @@
 title: "Quality Control: Audi"
 date: "2024-06-06"
 author: "AmpleAI"
-preview: "Edge AI revolutionizes Audi's quality control by enabling real-time defect detection, crucial for maintaining high standards and minimizing operational inefficiencies. Deploying this technology ensures consistent quality and reinforces Audi's reputation for excellence."
+preview: "Edge AI enhances Audi's quality control with real-time defect detection, vital for maintaining excellence in automotive manufacturing."
 slug: "1-quality-control-audi"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/3862627/pexels-photo-3862627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"

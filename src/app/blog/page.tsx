@@ -6,7 +6,7 @@ import BlogCard from '@/components/Blog/BlogCard';
 
 export const metadata: Metadata = {
   title: "Ample AI: Edge AI Case Studies",
-  description: "Explore our case studies to see how Ample AI is empowering engineering teams to pioneer edge AI solutions across diverse industries.",
+  description: "Discover how Ample AI empowers engineering teams with edge AI solutions. Explore our edge AI case studies.",
   keywords: "edge artificial intelligence, edge ai use cases, machine learning at the edge, edge ai examples"
 };
 

@@ -2,7 +2,7 @@
 title: "Real-time Process Monitoring: Foxconn"
 date: "2024-06-16"
 author: "AmpleAI"
-preview: "Edge AI enhances Foxconn's process monitoring by enabling real-time adjustments, crucial for maintaining consistent product quality and operational efficiency. Deploying this technology ensures optimal production conditions and reduces variability."
+preview: "Edge AI boosts Foxconn's process monitoring with real-time adjustments, enhancing product quality and efficiency. Key for edge AI applications in assembly."
 slug: "3-real-time-process-monitoring-foxconn"
 category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

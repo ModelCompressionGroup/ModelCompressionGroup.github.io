@@ -7,8 +7,8 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ample AI: Streamline your Edge AI deployments.",
-  description: "Ample AI provides cutting-edge AI deployment tools for manufacturing and industrial IoT, enabling real-time quality control, warehouse automation, and more. We empower your engineering teams to reduce AI innovation cycle times by 50%.",
+  title: "Ample AI: Transform Your Edge AI Deployments",
+  description: "Ample AI offers machine learning tools for edge AI, enabling real-time quality control and automation. Reduce AI development cycle times by 50%.",
   keywords: "machine learning at the edge, machine learning tools, edge ai use cases, ai on the edge",
 };
 

@@ -2,7 +2,7 @@
 title: "Worker Safety: Toyota"
 date: "2024-06-16"
 author: "Ample AI"
-preview: "Edge AI enhances Toyota's worker safety by enabling real-time monitoring and immediate hazard detection, crucial for reducing accidents and improving operational efficiency. Deploying this technology ensures a safer and more productive working environment."
+preview: "Edge AI enhances Toyota's worker safety with real-time monitoring and hazard detection and reducing accidents. Key for edge AI applications."
 slug: "3-worker-safety-toyota"
 category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1581091212991-8891c7d4bd9b?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

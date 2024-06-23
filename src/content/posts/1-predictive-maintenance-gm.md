@@ -2,7 +2,7 @@
 title: "Predictive Maintenance: General Motors (GM)"
 date: "2024-06-04"
 author: "AmpleAI"
-preview: "Edge AI revolutionizes GM's maintenance by enabling real-time, predictive analytics, crucial for minimizing downtime and fostering rapid innovation. Deploying this technology is essential for staying competitive and efficient."
+preview: "Edge AI transforms GM's maintenance with real-time predictive analytics, reducing downtime and driving innovation. Essential for competitiveness."
 slug: "1-predictive-maintenance-gm"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/19233057/pexels-photo-19233057/free-photo-of-assembling-machines-in-factory.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"

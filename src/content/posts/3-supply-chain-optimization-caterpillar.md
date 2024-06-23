@@ -2,7 +2,7 @@
 title: "Supply Chain Optimization: Caterpillar"
 date: "2024-06-16"
 author: "Ample AI"
-preview: "Edge AI optimizes Caterpillar's supply chain by enabling real-time monitoring and predictive analytics, crucial for reducing costs and improving efficiency. Deploying this technology ensures agile and responsive supply chain management, enhancing Caterpillar's competitive edge."
+preview: "Edge AI optimizes Caterpillar's supply chain with real-time monitoring and predictive analytics, crucial for reducing costs. Key for edge AI applications."
 slug: "supply-chain-optimization-caterpillar"
 category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1621922688758-359fc864071e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
