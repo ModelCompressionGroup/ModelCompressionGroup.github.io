@@ -6,7 +6,7 @@ preview: "Edge AI revolutionizes BMW's robotic systems by enabling real-time adj
 slug: "1-robotics-automation-bmw"
 category: "Manufacturing"
 image: "https://images.unsplash.com/photo-1637002722490-5f8ceed9774c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-keywords: "robotics and automation at BMW, edge AI for BMW, real-time robotic adjustments, enhancing precision with AI, BMW's manufacturing automation, AI-driven robotics in automotive, improving production efficiency at BMW"
+keywords: "bavarian motorworks, edge ai applications, edge ai companies, machine learning at the edge"
 ---
 
 ## Problem

@@ -7,7 +7,7 @@ import BlogCard from '@/components/Blog/BlogCard';
 export const metadata: Metadata = {
   title: "Ample AI: Edge AI Case Studies",
   description: "Explore our case studies to see how Ample AI is empowering engineering teams to pioneer edge AI solutions across diverse industries.",
-  keywords: "TinyML, Edge Device, how to use edge computing, how to use edge ai, engineering leaders,case studies, Edge Computing, AI solutions, manufacturing technology, industrial IoT, real-time quality control, warehouse automation, technology for manufacturing",
+  keywords: "edge artificial intelligence, edge ai use cases, machine learning at the edge, edge ai examples"
 };
 
 export default function BlogPage() {

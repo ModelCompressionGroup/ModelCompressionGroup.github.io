@@ -6,7 +6,7 @@ preview: "Edge AI revolutionizes GM's maintenance by enabling real-time, predict
 slug: "1-predictive-maintenance-gm"
 category: "Manufacturing"
 image: "https://images.pexels.com/photos/19233057/pexels-photo-19233057/free-photo-of-assembling-machines-in-factory.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-keywords: "predictive maintenance at GM, edge AI for General Motors, real-time monitoring at GM, reducing downtime with AI, AI in automotive manufacturing, edge computing for predictive analytics, improving operational efficiency at GM"
+keywords: "general motors innovation center, edge ai companies, edge ai applications, edge ai companies"
 ---
 
 ## Problem

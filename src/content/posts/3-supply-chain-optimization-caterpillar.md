@@ -6,7 +6,7 @@ preview: "Edge AI optimizes Caterpillar's supply chain by enabling real-time mon
 slug: "supply-chain-optimization-caterpillar"
 category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1621922688758-359fc864071e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-keywords: "supply chain optimization at Caterpillar, edge AI for Caterpillar, real-time supply chain monitoring, enhancing supply chain efficiency, Caterpillar's supply chain management, AI-driven supply chain analytics, reducing supply chain costs with AI"
+keywords: "big cat machines, machine learning at the edge, edge ai applications, edge ai companies"
 ---
 
 ## Problem

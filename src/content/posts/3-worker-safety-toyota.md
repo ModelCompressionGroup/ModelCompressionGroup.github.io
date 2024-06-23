@@ -6,7 +6,7 @@ preview: "Edge AI enhances Toyota's worker safety by enabling real-time monitori
 slug: "3-worker-safety-toyota"
 category: "Supply Chain"
 image: "https://images.unsplash.com/photo-1581091212991-8891c7d4bd9b?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-keywords: "worker safety at Toyota, edge AI for Toyota, real-time hazard detection, enhancing safety with AI, Toyota's safety protocols, AI-driven safety monitoring, reducing workplace accidents with AI"
+keywords: "worker safety, toyota, edge ai applications, edge ai companies"
 ---
 
 ## Problem
