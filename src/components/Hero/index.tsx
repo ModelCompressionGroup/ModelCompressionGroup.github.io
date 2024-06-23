@@ -22,7 +22,7 @@ const Hero = () => {
                   Edge AI Deployment Challenges? <span className="text-primary dark:text-white">Simplify with Ample AI.</span>
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Let your engineers innovate: Spend more time on high-value tasks and less on repetitive AI model iterations.
+                  Let your engineers innovate: Spend more time on high-value tasks and less on repetitive AI model iterations with our advanced machine learning tools.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

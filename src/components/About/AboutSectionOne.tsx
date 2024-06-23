@@ -32,8 +32,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="360° Service for Scalable Edge AI Operations"
-                paragraph="Our comprehensive services are designed to optimize and streamline your AI model development, making it easier for engineering teams to manage and enhance their edge AI capabilities."
+                title="360° Service for Scalable Edge AI Operations" 
+                paragraph="Our comprehensive services are designed to optimize and streamline your AI model development, making it easier for engineering teams to manage and enhance AI on the Edge."
                 mb="44px"
               />
 
