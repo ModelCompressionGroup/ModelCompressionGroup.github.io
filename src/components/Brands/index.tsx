@@ -6,13 +6,14 @@ const Brands = () => {
   return (
     <section className="pt-16">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="flex flex-wrap items-center justify-center rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
-              {brandsData.map((brand) => (
-                <SingleBrand key={brand.id} brand={brand} />
-              ))}
-            </div>
+        <div className="-mx-4">
+          <div className="flex flex-wrap items-center justify-center">
+            <p className="text-center text-lg mb-4">Built and trusted by alumni and fellows of</p>
+          </div>
+          <div className="flex flex-wrap items-center justify-center border-t-2 border-b-2 border-gray-300 py-4">
+            {brandsData.map((brand) => (
+              <SingleBrand key={brand.id} brand={brand} />
+            ))}
           </div>
         </div>
       </div>
@@ -32,9 +33,24 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         target="_blank"
         rel="nofollow noreferrer"
         className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
+        style={{ aspectRatio: "unset" }} // Ensure aspect ratio is unset to avoid conflicts
       >
-        <Image src={imageLight} alt={name} fill className="hidden dark:block" />
-        <Image src={image} alt={name} fill className="block dark:hidden" />
+        <div style={{ width: "100%", height: "100%" }}>
+          <Image
+            src={imageLight}
+            alt={name}
+            layout="fill" // Use layout="fill" to fill the parent container
+            objectFit="contain" // Adjust objectFit as needed (contain, cover, etc.)
+            className="hidden dark:block"
+          />
+          <Image
+            src={image}
+            alt={name}
+            layout="fill" // Use layout="fill" to fill the parent container
+            objectFit="contain" // Adjust objectFit as needed (contain, cover, etc.)
+            className="block dark:hidden"
+          />
+        </div>
       </a>
     </div>
   );
