@@ -1,6 +1,7 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
 import brandsData from "./brandsData";
+import HorizontalLine from "../Common/HorizontalLine";
 
 const Brands = () => {
   return (
@@ -10,11 +11,13 @@ const Brands = () => {
           <div className="flex flex-wrap items-center justify-center">
             <p className="text-center text-lg mb-4">Built and trusted by alumni and fellows of</p>
           </div>
-          <div className="flex flex-wrap items-center justify-center border-t-2 border-b-2 border-gray-300 py-4">
+          <HorizontalLine />
+          <div className="flex flex-wrap items-center justify-center py-4">
             {brandsData.map((brand) => (
               <SingleBrand key={brand.id} brand={brand} />
             ))}
           </div>
+          <HorizontalLine />
         </div>
       </div>
     </section>

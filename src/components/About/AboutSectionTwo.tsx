@@ -1,6 +1,5 @@
 import Image from "next/image";
 import NewTag from "../Common/NewTag";
-import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
 
 const AboutSectionTwo = () => {
@@ -39,26 +38,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Deploy Larger, Better Models
+                  Real-Time Inference
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Ample AI allows for the selection of larger and more advanced models upfront, resulting in superior performance and capabilities in the final deployment.
+                  Achieve instant data processing on edge devices.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Gain Efficiency
+                  Model Performance
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Streamlined processes reduce repetitive tasks and cut model iteration cycles by over 50%. 
+                  Maximize model performance under computing limits.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Focus on Innovation
+                  Battery Efficiency
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Engineering leaders can redeploy engineers on high-value and high-priority tasks.
+                  Optimize power consumption to extend battery life.
                 </p>
               </div>
             </div>

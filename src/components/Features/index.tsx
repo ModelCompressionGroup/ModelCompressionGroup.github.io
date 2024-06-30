@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Challenges?"
-            paragraph="AI Engineering Teams spend over 50% of time on super manual model optimization tasks."
+            paragraph="AI Engineering Teams Waste 50% of Their Time on Manual AI Model Optimization"
             center
           />
 

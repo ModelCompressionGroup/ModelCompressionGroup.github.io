@@ -5,6 +5,7 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
+import AnimatedCounterSection from "@/components/About/AnimatedCounter";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -21,8 +22,10 @@ export default function Home() {
       <AboutSectionOne />
       <AboutSectionTwo />
       <Brands />
+      <AnimatedCounterSection />
       <Contact />
       <BlogSection />
+      
     </>
   );
 }
