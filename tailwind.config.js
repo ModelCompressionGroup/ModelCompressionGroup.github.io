@@ -11,7 +11,13 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem",
+      padding: {
+        DEFAULT: "1rem", 
+        sm: "1rem",      
+        md: "1rem",      
+        lg: "1rem",      
+        xl: "10rem",  
+      },
     },
     screens: {
       xs: "450px",
@@ -25,11 +31,12 @@ module.exports = {
       colors: {
         current: "currentColor",
         transparent: "transparent",
-        white: "#FFFFFF",
+        white: "#fdfdfd",
         black: "#121723",
         dark: "#1D2430",
         primary: "#002D72",
         yellow: "#FBB040",
+        "bg-color-primary": "#fdfaf2",
         "bg-color-dark": "#171C28",
         "body-color": {
           DEFAULT: "#788293",
@@ -44,7 +51,7 @@ module.exports = {
           dark: "#1E232E",
           light: "#F0F2F9",
         },
-        secondary: "#00509E",
+        secondary: "#121723",
         info: "#00bfff"
       },
       boxShadow: {

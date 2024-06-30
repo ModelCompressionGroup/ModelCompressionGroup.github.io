@@ -1,33 +1,35 @@
+import Link from 'next/link';
 import React from 'react';
 
 interface NewTagProps {
   text: string;
+  href: string; // Additional prop for the link URL
 }
 
-const NewTag: React.FC<NewTagProps> = ({ text }) => {
+const NewTag: React.FC<NewTagProps> = ({ text, href }) => {
   return (
-    <div className="relative flex items-center gap-2">
-      <span className="block text-sm font-bold px-2 py-0.5 rounded-full text-white bg-info animate-pulse drop-shadow-lg dark:text-white">
+    <Link
+      href={href}
+      className="relative flex items-center justify-center gap-2 bg-gray-800 bg-opacity-20 hover:bg-opacity-30 rounded-full px-4 py-1 transition duration-300 ease-in-out"
+    >
+      <span className="text-sm font-bold text-primary animate-pulse">
         NEW
       </span>
-      <span className="relative text-sm font-medium text-gray-700 flex gap-6 dark:text-white">
+      <span className="text-sm font-medium text-white">
         {text}
-        <div className="flex items-center -space-x-3 group-hover:-translate-x-1 transition-transform duration-300">
-          <span className="w-2.5 translate-y-[-0.3px] -translate-x-px opacity-0 h-[1.5px] rounded bg-gray-950 origin-left scale-x-0 transition duration-300 group-hover:opacity-100 group-hover:scale-x-100"></span>
-          <svg
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-4 h-4 text-gray-950 -translate-x-2 transition duration-300 group-hover:translate-x-px"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
-        </div>
       </span>
-    </div>
+      <svg
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-4 h-4 ml-2 text-white"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={2}
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </Link>
   );
 };
 

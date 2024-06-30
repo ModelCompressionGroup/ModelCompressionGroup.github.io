@@ -20,7 +20,7 @@ const BlogCarousel = ({ blogData }: { blogData: Blog[] }) => {
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
+          1024: { slidesPerView: 2 },
         }}
       >
         {blogData.map((blog) => (
