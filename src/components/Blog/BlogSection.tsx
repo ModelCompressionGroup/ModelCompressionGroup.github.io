@@ -2,6 +2,7 @@ import SectionTitle from "../Common/SectionTitle";
 import dynamic from 'next/dynamic';
 import { loadBlogPosts } from "@/utils/loadBlogPosts";
 import { Blog } from '@/types/blog';
+import NewTag from "../Common/NewTag";
 
 const BlogCarousel = dynamic(() => import('@/components/Blog/BlogCarousel'), {
   ssr: false,
@@ -22,6 +23,9 @@ const BlogSection = () => {
           paragraph="See how Edge AI solutions can transform legacy systems into high-efficiency operations. Explore our Edge AI use cases."
           center
         />
+        <div className="flex justify-center">
+          <NewTag href="/blog" text="Find more here"/>
+        </div>
         <BlogCarousel blogData={blogData} />
       </div>
     </section>

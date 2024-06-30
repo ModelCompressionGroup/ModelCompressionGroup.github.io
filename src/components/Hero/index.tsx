@@ -1,6 +1,7 @@
-import Link from "next/link";
 import NewTag from "../Common/NewTag";
 import Image from "next/image";
+import MailerLiteButton from "../Common/MailerLiteContactButton";
+import ScheduleDemoButton from "../Common/ScheduleDemoButton";
 
 const Hero = () => {
   return (
@@ -19,12 +20,8 @@ const Hero = () => {
                 Let your engineers innovate: Spend more time on high-value tasks and less on repetitive AI model iterations with our advanced machine learning tools.
               </p>
               <div className="flex justify-center md:justify-start flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                <Link
-                  href="/contact"
-                  className="inline-block px-6 py-3 font-medium text-white bg-black border border-black rounded-full hover:bg-white hover:text-black"
-                >
-                  Contact Us
-                </Link>
+                <MailerLiteButton />
+                <ScheduleDemoButton />
               </div>
             </div>
           </div>
@@ -37,8 +34,10 @@ const Hero = () => {
               <Image
                 src="/images/hero-image.png"
                 alt="about-image"
-                layout="fill"
-                objectFit="contain"  // Adjusted to 'contain' to ensure no cropping of the image
+                fill
+                style={{
+                  objectFit: 'contain',
+                }}
               />
             </div>
           </div>
