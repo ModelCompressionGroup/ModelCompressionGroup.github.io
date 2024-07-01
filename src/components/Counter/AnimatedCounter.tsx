@@ -6,7 +6,7 @@ import SectionTitle from '../Common/SectionTitle'; // Adjust path as per your pr
 import HorizontalLine from '../Common/HorizontalLine';
 import Image from 'next/image'; // Import Image component from Next.js
 
-const AnimatedCounterSection = () => {
+const AnimatedCounter = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
   const [count3, setCount3] = useState(0);
@@ -34,7 +34,7 @@ const AnimatedCounterSection = () => {
         });
       },
       {
-        threshold: 0.5, // Trigger when 50% of the section is visible
+        threshold: 0.2, // Trigger when 50% of the section is visible
       }
     );
 
@@ -52,28 +52,21 @@ const AnimatedCounterSection = () => {
   }, []);
 
   return (
-    <section className="py-16 md:py-20 lg:py-28" ref={sectionRef}>
+    <section className="py-8 md:py-10 lg:py-14" ref={sectionRef}>
       <div className="container">
-        <SectionTitle
-          title=""
-          paragraph="Your Embedded AI product could experience..."
-          center
-        />
-        <HorizontalLine /> {/* Horizontal line above the section */}
+        <p className="text-base !leading-relaxed text-body-color md:text-lg mb-10">
+          Your Embedded AI solution could exeperience...
+        </p>
         <div className="-mx-4 flex flex-wrap items-center">
           {/* Block #1 */}
           <article className="w-full px-4 lg:w-1/3">
             <div className="w-14 h-14 flex justify-center items-center rotate-3 mb-6">
-              <div className="relative w-14 h-14 overflow-hidden">
-                <Image
-                  src="/images/icons/artificial-intelligence.png"
-                  alt="Icon 1"
-                  width={56}
-                  height={56}
-                  layout="fixed"
-                  className="bg-transparent"
-                />
-              </div>
+            <Image
+              src="/images/icons/artificial-intelligence.png"
+              alt="Icon 1"
+              fill // Use fill to allow the image to adapt to the parent container size
+              style={{ objectFit: 'contain' }} // Object fit contain to ensure the image is scaled properly within the bounds
+            />
             </div>
             <h2 className="text-5xl font-extrabold mb-2">
               <CountUp end={count1} duration={3} />x
@@ -81,65 +74,47 @@ const AnimatedCounterSection = () => {
                 Faster Inference
               </span>
             </h2>
-            <p className="text-sm text-slate-500">
-              Achieve quicker decision-making with reduced inference times using embedded AI.
-            </p>
           </article>
 
           {/* Block #2 */}
           <article className="w-full px-4 lg:w-1/3">
             <div className="w-14 h-14 flex justify-center items-center -rotate-3 mb-6">
-              <div className="relative w-14 h-14 overflow-hidden">
-                <Image
-                  src="/images/icons/lighting.png"
-                  alt="Icon 2"
-                  width={56}
-                  height={56}
-                  layout="fixed"
-                  className="bg-transparent"
-                />
-              </div>
+              <Image
+                src="/images/icons/lighting.png"
+                alt="Icon 2"
+                fill
+                style={{ objectFit: 'contain' }}
+              />
             </div>
             <h2 className="text-5xl font-extrabold mb-2">
               <CountUp end={count2} duration={3} />x
               <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
-                Improved Energy Efficiency
+                Longer Battery Life
               </span>
             </h2>
-            <p className="text-sm text-slate-500">
-              Optimize power consumption and extend battery life significantly with our edge AI solutions.
-            </p>
           </article>
 
           {/* Block #3 */}
           <article className="w-full px-4 lg:w-1/3">
             <div className="w-14 h-14 flex justify-center items-center rotate-3 mb-6">
-              <div className="relative w-14 h-14 overflow-hidden">
-                <Image
-                  src="/images/icons/clock.png"
-                  alt="Icon 3"
-                  width={56}
-                  height={56}
-                  layout="fixed"
-                  className="bg-transparent"
-                />
-              </div>
+              <Image
+                src="/images/icons/clock.png"
+                alt="Icon 3"
+                fill
+                style={{ objectFit: 'contain' }}
+              />
             </div>
             <h2 className="text-5xl font-extrabold mb-2">
               <CountUp end={count3} duration={3} />%
               <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
-                Time To Market
+                Faster Time To Market
               </span>
             </h2>
-            <p className="text-sm text-slate-500">
-              Accelerate product launch timelines with efficient AI model optimization and deployment on edge devices.
-            </p>
           </article>
         </div>
-        <HorizontalLine /> {/* Horizontal line below the section */}
       </div>
     </section>
   );
 };
 
-export default AnimatedCounterSection;
+export default AnimatedCounter;

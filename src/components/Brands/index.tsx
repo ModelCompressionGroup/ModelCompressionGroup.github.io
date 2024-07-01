@@ -40,18 +40,11 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
       >
         <div style={{ width: "100%", height: "100%" }}>
           <Image
-            src={imageLight}
-            alt={name}
-            layout="fill" // Use layout="fill" to fill the parent container
-            objectFit="contain" // Adjust objectFit as needed (contain, cover, etc.)
-            className="hidden dark:block"
-          />
-          <Image
             src={image}
             alt={name}
-            layout="fill" // Use layout="fill" to fill the parent container
-            objectFit="contain" // Adjust objectFit as needed (contain, cover, etc.)
-            className="block dark:hidden"
+            fill // Use layout="fill" to fill the parent container
+            style={{ objectFit: 'contain' }} // Adjust objectFit as needed (contain, cover, etc.)
+            className="block"
           />
         </div>
       </a>

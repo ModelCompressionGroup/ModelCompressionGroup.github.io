@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NewTag from "../Common/NewTag";
 import SectionTitle from "../Common/SectionTitle";
+import ScheduleDemoButton from "../Common/ScheduleDemoButton";
 
 const AboutSectionTwo = () => {
   return (
@@ -21,15 +22,17 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/tinymlhub.png"
+                src="/images/about/tinymlhub-3.png"
                 alt="about image"
                 fill
+                style={{ objectFit: 'contain' }}
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/tinymlhub.png"
+                src="/images/about/tinymlhub-3.png"
                 alt="about image"
                 fill
+                style={{ objectFit: 'contain' }}
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>
@@ -61,6 +64,10 @@ const AboutSectionTwo = () => {
                 </p>
               </div>
             </div>
+            <div className="mt-8">
+            <ScheduleDemoButton />
+            </div>
+            
           </div>
         </div>
       </div>

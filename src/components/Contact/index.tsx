@@ -30,8 +30,8 @@ const Contact = () => {
       <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Ready to Transform Your Edge AI Operations?"
-            paragraph="Get in touch with our experts for a free consultation and discover how Ample AI can revolutionize your AI deployment process."
+            title="Schedule a free demo!"
+            paragraph="Get in touch with our experts for a free consultation and discover how Ample AI can help you optimize AI models for your edge application."
             center
           />
           <div className="flex justify-center">
