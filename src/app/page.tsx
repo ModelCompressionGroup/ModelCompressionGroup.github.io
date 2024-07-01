@@ -4,12 +4,14 @@ import BlogSection from "@/components/Blog/BlogSection";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import Brands from "@/components/Brands";
+import AnimatedCounter from "@/components/Counter/AnimatedCounter";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ample AI: Transform Your Edge AI Deployments",
-  description: "Ample AI offers machine learning tools for edge AI, enabling real-time quality control and automation. Reduce AI development cycle times by 50%.",
-  keywords: "machine learning at the edge, machine learning tools, edge ai use cases, ai on the edge",
+  title: "AmpleAI | Best Platform for AI Model Optimization",
+  description: "AmpleAI offers industry-leading AI model optimization for real-time inference, computational efficiency, and model performance. Enhance your tiny AI models for edge devices.",
+  keywords: "tiny ai, embedded ai, ai model optimization, ai model compression, real-time inference",
 };
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
       <Features />
       <AboutSectionOne />
       <AboutSectionTwo />
+      <AnimatedCounter />
+      <Brands />
       <BlogSection />
       <Contact />
     </>

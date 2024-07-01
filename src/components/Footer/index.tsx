@@ -5,7 +5,7 @@ import NewsletterBox from "../Contact/NewsLatterBox";
 
 const Footer = () => {
   return (
-    <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+    <footer className="relative z-10 pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 md:w-1/2 lg:w-6/12 xl:w-5/12">
@@ -54,6 +54,14 @@ const Footer = () => {
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/terms/attributions"
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Attributions & Sources
                   </Link>
                 </li>
               </ul>

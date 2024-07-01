@@ -12,7 +12,7 @@ const BlogCarousel = ({ blogData }: { blogData: Blog[] }) => {
   return (
     <div className="container mx-auto py-10">
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation]}
         spaceBetween={20}
         slidesPerView={1}
         navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
@@ -20,7 +20,7 @@ const BlogCarousel = ({ blogData }: { blogData: Blog[] }) => {
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
+          1024: { slidesPerView: 2 },
         }}
       >
         {blogData.map((blog) => (
