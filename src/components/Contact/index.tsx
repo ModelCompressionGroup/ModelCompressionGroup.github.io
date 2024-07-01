@@ -37,7 +37,7 @@ const Contact = () => {
           <div className="flex justify-center">
             <div className="widget-container">
               <div className="calendly-inline-widget"
-                   data-url="https://calendly.com/wenbo-zhang-ampleai/30min?background_color=fdfaf2&text_color=002d72&primary_color=002d72"
+                   data-url="https://calendly.com/wenbo-zhang-ampleai/30min?hide_gdpr_banner=1&background_color=fdfaf2&text_color=002d72&primary_color=002d72"
                    style={{ width: '100%', height: '100%', backgroundColor: 'transparent' }}>
                 {/* Placeholder for Calendly widget */}
               </div>
