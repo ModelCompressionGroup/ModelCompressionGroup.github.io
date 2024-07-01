@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 };
 
 export default function Attributions() {
-
   return (
     <>
       <Breadcrumb
@@ -32,8 +31,16 @@ export default function Attributions() {
             <p className="text-left text-base font-medium italic text-body-color mb-2">
               Photos:
             </p>
-            <ul className="list-disc pl-5">
+            <ul className="list-disc pl-5 mb-4">
               <li>Photo by ThisIsEngineering from <a href="https://www.pexels.com/photo/engineers-developing-robotic-arm-3913031/">Pexels</a></li>
+            </ul>
+            <h2 className="text-lg font-semibold text-body-color mb-4">Fonts</h2>
+            <p className="text-left text-base font-medium italic text-body-color mb-2">
+              Fonts:
+            </p>
+            <ul className="list-disc pl-5">
+              <li>Prata - <a href="https://fonts.google.com/specimen/Prata" title="Prata font">Google Fonts</a></li>
+              <li>Work Sans Medium - <a href="https://fonts.google.com/specimen/Work+Sans" title="Work Sans font">Google Fonts</a></li>
             </ul>
           </div>
         </div>
