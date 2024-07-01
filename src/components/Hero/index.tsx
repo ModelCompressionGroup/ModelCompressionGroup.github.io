@@ -33,7 +33,7 @@ const Hero = () => {
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <NewTag text="Edge AI in Manufacturing Case" href="/blog" />
             </div>
-            <div className="relative w-full min-h-[400px] mt-8"> 
+            <div className="relative w-full min-h-[450px] mt-4"> 
               <Image
                 src="/images/hero-image.png"
                 alt="about-image"
