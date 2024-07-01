@@ -56,6 +56,14 @@ const Footer = () => {
                     About
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/terms/attributions"
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Attributions & Sources
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
