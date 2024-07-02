@@ -54,9 +54,11 @@ const AnimatedCounter = () => {
   return (
     <section className="py-8 md:py-10 lg:py-14" ref={sectionRef}>
       <div className="container">
-        <p className="text-base !leading-relaxed text-body-color md:text-lg mb-10">
-          Your Embedded AI solution could exeperience...
-        </p>
+        <SectionTitle
+          title="Your Tiny AI product will benefit from ... " 
+          paragraph=""
+          mb="20px"
+          />
         <div className="-mx-4 flex flex-wrap items-center">
           {/* Block #1 */}
           <article className="w-full px-4 lg:w-1/3">
@@ -68,12 +70,12 @@ const AnimatedCounter = () => {
               style={{ objectFit: 'contain' }} // Object fit contain to ensure the image is scaled properly within the bounds
             />
             </div>
-            <h2 className="text-5xl font-extrabold mb-2">
+            <h3 className="text-5xl font-extrabold mb-2">
               <CountUp end={count1} duration={3} />x
               <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
                 Faster Inference
               </span>
-            </h2>
+            </h3>
           </article>
 
           {/* Block #2 */}
@@ -86,12 +88,12 @@ const AnimatedCounter = () => {
                 style={{ objectFit: 'contain' }}
               />
             </div>
-            <h2 className="text-5xl font-extrabold mb-2">
+            <h3 className="text-5xl font-extrabold mb-2">
               <CountUp end={count2} duration={3} />x
               <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
                 Longer Battery Life
               </span>
-            </h2>
+            </h3>
           </article>
 
           {/* Block #3 */}
@@ -104,12 +106,12 @@ const AnimatedCounter = () => {
                 style={{ objectFit: 'contain' }}
               />
             </div>
-            <h2 className="text-5xl font-extrabold mb-2">
+            <h3 className="text-5xl font-extrabold mb-2">
               <CountUp end={count3} duration={3} />%
               <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
                 Faster Time To Market
               </span>
-            </h2>
+            </h3>
           </article>
         </div>
       </div>

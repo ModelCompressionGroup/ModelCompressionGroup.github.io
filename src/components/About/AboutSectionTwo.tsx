@@ -8,7 +8,7 @@ const AboutSectionTwo = () => {
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-                title="Why Ample AI?"
+                title="Maximize your ROI"
                 paragraph="Accelerate model development across edge device series, including trailing edge tech."
                 center
         />

@@ -1,12 +1,12 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import ProductServiceSection from "@/components/About/ProductServiceSection";
 import BlogSection from "@/components/Blog/BlogSection";
 import Contact from "@/components/Contact";
-import Features from "@/components/Features";
+import ProblemSection from "@/components/Features";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import AnimatedCounter from "@/components/Counter/AnimatedCounter";
 import { Metadata } from "next";
+import AboutSectionRoi from "@/components/About/AboutSectionRoi";
 
 export const metadata: Metadata = {
   title: "AmpleAI | Best Platform for AI Model Optimization",
@@ -18,13 +18,13 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      <ProblemSection />
+      <ProductServiceSection />
       <AnimatedCounter />
-      <Brands />
+      <AboutSectionRoi/>
       <BlogSection />
       <Contact />
+      <Brands />
     </>
   );
 }
