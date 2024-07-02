@@ -2,14 +2,14 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 
-const Features = () => {
+const ProblemSection = () => {
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Challenges?"
-            paragraph="AI Engineering Teams Waste 50% of Their Time on Manual AI Model Optimization"
+            title="AI Engineering Teams Waste 50% of Their Time on Manual AI Model Optimization"
+            paragraph=""
             center
           />
 
@@ -24,4 +24,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default ProblemSection;

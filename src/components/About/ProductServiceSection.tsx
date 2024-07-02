@@ -10,7 +10,7 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
+const ProductServiceSection = () => {
   const List = ({ text, icon = checkIcon }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary shrink-0">
@@ -27,7 +27,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="360° Service for Scalable Edge AI Operations" 
+                title="360° AI Model Optimization Services for Edge Devices" 
                 paragraph="Our comprehensive services are designed to optimize and streamline your AI model development, making it easier for engineering teams to manage and enhance AI on the Edge."
                 mb="44px"
               />
@@ -35,7 +35,7 @@ const AboutSectionOne = () => {
               <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
                 <div className="mx-[-12px]">
                   <div className="w-full px-3 lg:w-full">
-                    <List text="Model Selection and Compression Suite for Target Chips" />
+                    <List text="Model Selection and Optimization Suite for Target Chips" />
                     <List text="Multi-Device Model Management Hub" />
                     <List text="AI Expert Consultant and Support" />
                   </div>
@@ -50,14 +50,14 @@ const AboutSectionOne = () => {
               <div className="relative mx-auto aspect-[25/24] max-w-[700px] lg:mr-0">
                 <div className="relative w-full h-0" style={{ paddingBottom: '96%' }}>
                   <Image
-                    src="/images/about/time-consumption-no-background.png"
+                    src="/images/about/tinymlhub-3.png"
                     alt="about-image"
                     fill
                     style={{ objectFit: "contain" }}
                     className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
                   <Image
-                    src="/images/about/time-consumption-no-background.png"
+                    src="/images/about/tinymlhub-3.png"
                     alt="about-image-dark"
                     fill
                     style={{ objectFit: "contain" }}
@@ -88,5 +88,5 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default ProductServiceSection;
 

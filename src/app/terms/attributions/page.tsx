@@ -27,6 +27,12 @@ export default function Attributions() {
               <li>Artificial intelligence icons created by shin_icons - <a href="https://www.flaticon.com/free-icons/artificial-intelligence" title="artificial intelligence icons">Flaticon</a></li>
               <li>Time icons created by Freepik - <a href="https://www.flaticon.com/free-icons/time" title="time icons">Flaticon</a></li>
               <li>Energy icons created by Pixel perfect - <a href="https://www.flaticon.com/free-icons/energy" title="energy icons">Flaticon</a></li>
+              <li>Revenue icons created by Uniconlabs - <a href="https://www.flaticon.com/free-icons/revenue" title="Revenue icons">Flaticon</a></li>
+              <li>Uptime icons created by Pixelmeetup - <a href="https://www.flaticon.com/free-icons/uptime" title="uptime icons">Flaticon</a></li>
+              <li>Quality control icons created by Freepik - <a href="https://www.flaticon.com/free-icons/quality-control" title="quality control icons">Flaticon</a></li>
+              <li>Manual icons created by LAFS - <a href="https://www.flaticon.com/free-icons/manual" title="manual icons">Flaticon</a></li>
+              <li>Unplanned icons created by VectorPortal - <a href="https://www.flaticon.com/free-icons/unplanned" title="unplanned icons">Flaticon</a></li>
+              <li>Constraint icons created by logisstudio - <a href="https://www.flaticon.com/free-icons/constraint" title="constraint icons">Flaticon</a></li>
             </ul>
             <p className="text-left text-base font-medium italic text-body-color mb-2">
               Photos:
