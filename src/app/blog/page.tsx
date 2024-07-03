@@ -3,6 +3,7 @@ import { loadBlogPosts } from '@/utils/loadBlogPosts';
 import { Blog } from '@/types/blog';
 import { Metadata } from 'next';
 import BlogCard from '@/components/Blog/BlogCard';
+import ScheduleDemoButton from '@/components/Common/ScheduleDemoButton';
 
 export const metadata: Metadata = {
   title: "Ample AI: Edge AI Case Studies",
@@ -156,6 +157,7 @@ export default function BlogPage() {
               </svg>
             </span>
           </div>
+          <ScheduleDemoButton/>
         </div>
       </section>
 

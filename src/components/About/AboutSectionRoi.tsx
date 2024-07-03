@@ -24,14 +24,12 @@ const AboutSectionRoi = () => {
                 paragraph="You’ll save time and money with AmpleAI. Don’t take it from us; take it from Manufacturers Alliance Foundation. Their study showed 110% return on investment over three years."
                 mb="44px"
               />
-              <div className="mt-8 flex justify-center lg:justify-start">  {/* Adjusted button alignment */}
-              <NewTag text="Read the full report" href="https://www.manufacturersalliance.org/sites/default/files/2024-06/AI-CS24-Report-F_0.pdf"/>
+              <div className="mt-8 flex justify-center lg:justify-start">
+                <NewTag text="Read the full report" href="https://www.manufacturersalliance.org/sites/default/files/2024-06/AI-CS24-Report-F_0.pdf"/>
               </div>
             </div>
 
-            <div className="hidden lg:block lg:w-1/12"> {/* Spacer Div */}
-              {/* Empty div used as a spacer */}
-            </div>
+            <div className="hidden lg:block lg:w-1/12"></div>
 
             <div className="w-full px-4 lg:w-5/12">
               <div className="max-w-[470px]">
@@ -39,9 +37,9 @@ const AboutSectionRoi = () => {
                   <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6">
                     <Image
                       src="/images/icons/revenue.png"
-                      alt="Icon 1"
-                      fill // Use fill to allow the image to adapt to the parent container size
-                      style={{ objectFit: 'contain' }} // Object fit contain to ensure the image is scaled properly within the bounds
+                      alt="Revenue Growth Icon"
+                      fill
+                      style={{ objectFit: 'contain' }}
                     />
                   </div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -55,9 +53,9 @@ const AboutSectionRoi = () => {
                   <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6">
                     <Image
                       src="/images/icons/uptime.png"
-                      alt="Icon 1"
-                      fill // Use fill to allow the image to adapt to the parent container size
-                      style={{ objectFit: 'contain' }} // Object fit contain to ensure the image is scaled properly within the bounds
+                      alt="Uptime Improvement Icon"
+                      fill
+                      style={{ objectFit: 'contain' }}
                     />
                   </div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -71,9 +69,9 @@ const AboutSectionRoi = () => {
                   <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6">
                     <Image
                       src="/images/icons/quality-control.png"
-                      alt="Icon 1"
-                      fill // Use fill to allow the image to adapt to the parent container size
-                      style={{ objectFit: 'contain' }} // Object fit contain to ensure the image is scaled properly within the bounds
+                      alt="Quality Control Icon"
+                      fill
+                      style={{ objectFit: 'contain' }}
                     />
                   </div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -84,6 +82,9 @@ const AboutSectionRoi = () => {
                   </p>
                 </div>
               </div>
+              <div className="flex justify-center md:justify-start flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-8">
+                  <ScheduleDemoButton />
+              </div>
             </div>
           </div>
         </div>
@@ -93,5 +94,3 @@ const AboutSectionRoi = () => {
 };
 
 export default AboutSectionRoi;
-
-

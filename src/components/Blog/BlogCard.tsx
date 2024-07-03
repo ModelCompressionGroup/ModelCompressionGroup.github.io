@@ -14,7 +14,7 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
     <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark flex flex-col h-full">
       {image && (
         <Link href={`/blog/posts/${slug}`} className="relative block aspect-[37/22] w-full">
-          <Image src={image} alt={title} layout="fill" className="object-cover" />
+          <Image src={image} alt={title} fill className="object-cover" />
         </Link>
       )}
       <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8 flex-1 flex flex-col justify-between">

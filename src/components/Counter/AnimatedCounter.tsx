@@ -3,7 +3,6 @@
 import { useEffect, useState, useRef } from 'react';
 import CountUp from 'react-countup';
 import SectionTitle from '../Common/SectionTitle'; // Adjust path as per your project structure
-import HorizontalLine from '../Common/HorizontalLine';
 import Image from 'next/image'; // Import Image component from Next.js
 
 const AnimatedCounter = () => {
@@ -34,7 +33,7 @@ const AnimatedCounter = () => {
         });
       },
       {
-        threshold: 0.2, // Trigger when 50% of the section is visible
+        threshold: 0.2, // Trigger when 20% of the section is visible
       }
     );
 
@@ -55,62 +54,62 @@ const AnimatedCounter = () => {
     <section className="py-8 md:py-10 lg:py-14" ref={sectionRef}>
       <div className="container">
         <SectionTitle
-          title="Your Tiny AI product will benefit from ... " 
+          title="Your Tiny AI product will benefit from ..." 
           paragraph=""
           mb="20px"
-          />
+        />
         <div className="-mx-4 flex flex-wrap items-center">
           {/* Block #1 */}
           <article className="w-full px-4 lg:w-1/3">
-            <div className="w-14 h-14 flex justify-center items-center rotate-3 mb-6">
-            <Image
-              src="/images/icons/artificial-intelligence.png"
-              alt="Icon 1"
-              fill // Use fill to allow the image to adapt to the parent container size
-              style={{ objectFit: 'contain' }} // Object fit contain to ensure the image is scaled properly within the bounds
-            />
+            <div className="w-14 h-14 flex justify-center items-center rotate-0 mb-6">
+              <Image
+                src="/images/icons/artificial-intelligence.png"
+                alt="Artificial Intelligence Icon"
+                fill
+                style={{ objectFit: 'contain' }}
+              />
             </div>
-            <h3 className="text-5xl font-extrabold mb-2">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
               <CountUp end={count1} duration={3} />x
-              <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
-                Faster Inference
-              </span>
+            </h3>
+            <h3 className="text-3xl inline-flex font-semibold bg-clip-text text-primary mb-2">
+              Faster Inference
             </h3>
           </article>
 
           {/* Block #2 */}
           <article className="w-full px-4 lg:w-1/3">
-            <div className="w-14 h-14 flex justify-center items-center -rotate-3 mb-6">
+            <div className="w-14 h-14 flex justify-center items-center rotate-0 mb-6">
               <Image
                 src="/images/icons/lighting.png"
-                alt="Icon 2"
+                alt="Lighting Efficiency Icon"
                 fill
                 style={{ objectFit: 'contain' }}
               />
             </div>
-            <h3 className="text-5xl font-extrabold mb-2">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
               <CountUp end={count2} duration={3} />x
-              <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
-                Longer Battery Life
-              </span>
+            </h3>
+            <h3 className="text-3xl inline-flex font-semibold bg-clip-text text-primary mb-2">
+              Longer Battery Life
             </h3>
           </article>
 
           {/* Block #3 */}
           <article className="w-full px-4 lg:w-1/3">
-            <div className="w-14 h-14 flex justify-center items-center rotate-3 mb-6">
+            <div className="w-14 h-14 flex justify-center items-center rotate-0 mb-6">
               <Image
                 src="/images/icons/clock.png"
-                alt="Icon 3"
+                alt="Time Efficiency Icon"
                 fill
                 style={{ objectFit: 'contain' }}
               />
             </div>
-            <h3 className="text-5xl font-extrabold mb-2">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
               <CountUp end={count3} duration={3} />%
-              <span className="inline-flex font-semibold bg-clip-text text-primary mb-2">
-                Faster Time To Market
-              </span>
+            </h3>
+            <h3 className="text-3xl inline-flex font-semibold bg-clip-text text-primary mb-2">
+              Faster Time To Market
             </h3>
           </article>
         </div>

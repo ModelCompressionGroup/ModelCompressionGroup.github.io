@@ -40,7 +40,7 @@ const Popup = ({ triggerText, title, imageSrc, imageAlt, children }) => {
                 <Image
                   src={imageSrc}
                   alt={imageAlt}
-                  layout="fill"
+                  fill
                   objectFit="contain"
                   className="rounded"
                 />

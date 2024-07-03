@@ -27,9 +27,7 @@ const Footer = () => {
                   />
               </Link>
               <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                We at Ample AI provide engineering teams with the tools and
-                expertise to swiftly bring cutting-edge AI capabilities to every
-                edge device, enhancing both speed and scalability.
+                We specialize in refining AI models for real-time inference, computational efficiency, and superior performance. Our services are tailored for IoT and embedded systems.
               </p>
             </div>
           </div>

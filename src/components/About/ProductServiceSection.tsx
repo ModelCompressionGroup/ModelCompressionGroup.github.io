@@ -51,14 +51,14 @@ const ProductServiceSection = () => {
                 <div className="relative w-full h-0" style={{ paddingBottom: '96%' }}>
                   <Image
                     src="/images/about/tinymlhub-3.png"
-                    alt="about-image"
+                    alt="Ample AI Tiny AI Hub for AI Model Optimization"
                     fill
                     style={{ objectFit: "contain" }}
                     className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
                   <Image
                     src="/images/about/tinymlhub-3.png"
-                    alt="about-image-dark"
+                    alt="Ample AI Tiny AI Hub for AI Model Optimization"
                     fill
                     style={{ objectFit: "contain" }}
                     className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"

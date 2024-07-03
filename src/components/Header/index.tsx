@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import MailerLiteButton from "../Common/MailerLiteContactButton"; // Import the new MailerLiteButton component
+import MailerLiteButton from "../Common/MailerLiteContactButton"; 
 import menuData from "./menuData";
+import ScheduleDemoButton from "../Common/ScheduleDemoButton";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -159,7 +160,7 @@ const Header = () => {
                 </nav>
               </div>
               <div className="hidden lg:flex items-center justify-end pr-4 lg:pr-0">
-                <MailerLiteButton /> {/* MailerLiteButton visible only on larger screens */}
+                <ScheduleDemoButton/>
               </div>
             </div>
           </div>
