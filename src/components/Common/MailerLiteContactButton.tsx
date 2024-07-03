@@ -26,7 +26,7 @@ const MailerLiteButton = () => {
   return (
     <button
       onClick={handleMailerLiteForm}
-      className="inline-block min-w-[200px] px-8 py-3 font-medium text-white bg-primary border border-primary rounded-full hover:bg-white hover:text-primary"
+      className="inline-block min-w-[200px] px-8 py-3 font-medium text-primary bg-white border border-primary rounded-full hover:bg-primary hover:text-white"
     >
       Contact Us
     </button>
