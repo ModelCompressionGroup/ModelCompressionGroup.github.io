@@ -23,10 +23,10 @@ const BlogSection = () => {
           paragraph="See how Edge AI solutions can transform legacy systems into high-efficiency operations. Explore our Edge AI use cases."
           center
         />
-        <div className="flex justify-center mb-8"> 
+        <div className="flex justify-center mb-4"> 
           <NewTag href="/blog" text="Find more here"/>
         </div>
-        <div className="px-8 py-4"> 
+        <div className="px-8"> 
           <BlogCarousel blogData={blogData} />
         </div>
       </div>

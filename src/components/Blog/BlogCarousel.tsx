@@ -13,7 +13,7 @@ const BlogCarousel = ({ blogData }: { blogData: Blog[] }) => {
   return (
     <div className="container mx-auto py-10">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]} // Add Autoplay to the modules list
+        modules={[Navigation, Autoplay]}
         spaceBetween={20}
         slidesPerView={1}
         navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
