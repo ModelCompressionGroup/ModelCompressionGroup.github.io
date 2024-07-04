@@ -21,7 +21,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 
   // Combining static text with category from matterResult
   const titleSuffix = matterResult.category ? ` - ${matterResult.category}` : '';
-  const fullTitle = `Ample AI | Case Study${titleSuffix}`;
+  const fullTitle = `Ample AI | Edge AI Case Study${titleSuffix}`;
 
   return {
     title: fullTitle,
