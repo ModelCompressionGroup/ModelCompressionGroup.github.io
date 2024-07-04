@@ -27,7 +27,7 @@ const Footer = () => {
                   />
               </Link>
               <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                We specialize in refining AI models for real-time inference, computational efficiency, and superior performance. Our services are tailored for IoT and embedded systems.
+              AmpleAI excels in AI model optimization for real-time inference, enhancing computational efficiency and model performance. Our services are specifically designed for tiny AI in embedded systems and edge devices, optimizing for hardware constraints and battery efficiency.
               </p>
             </div>
           </div>
