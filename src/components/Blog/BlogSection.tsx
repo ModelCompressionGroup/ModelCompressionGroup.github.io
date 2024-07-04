@@ -23,13 +23,16 @@ const BlogSection = () => {
           paragraph="See how Edge AI solutions can transform legacy systems into high-efficiency operations. Explore our Edge AI use cases."
           center
         />
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-8"> 
           <NewTag href="/blog" text="Find more here"/>
         </div>
-        <BlogCarousel blogData={blogData} />
+        <div className="px-8 py-4"> 
+          <BlogCarousel blogData={blogData} />
+        </div>
       </div>
     </section>
   );
 };
+
 
 export default BlogSection;

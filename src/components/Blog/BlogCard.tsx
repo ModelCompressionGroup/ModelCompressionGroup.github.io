@@ -11,7 +11,7 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
   const { title, image, preview, author, category, date, slug } = blog;
 
   return (
-    <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark flex flex-col h-full">
+    <div className="group relative overflow-hidden rounded-2xl bg-white shadow-lg duration-300 hover:shadow-2xl dark:bg-dark dark:hover:shadow-gray-dark flex flex-col h-full min-h-[400px]">
       {image && (
         <Link href={`/blog/posts/${slug}`} className="relative block aspect-[37/22] w-full">
           <Image src={image} alt={title} fill className="object-cover" />
