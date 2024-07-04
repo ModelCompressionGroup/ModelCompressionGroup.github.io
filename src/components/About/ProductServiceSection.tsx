@@ -53,17 +53,22 @@ const ProductServiceSection = () => {
                     src="/images/about/tinymlhub-3.png"
                     alt="Ample AI Tiny AI Hub for AI Model Optimization"
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "contain" }}
                     className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                    priority
                   />
                   <Image
                     src="/images/about/tinymlhub-3.png"
                     alt="Ample AI Tiny AI Hub for AI Model Optimization"
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "contain" }}
                     className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                    priority
                   />
                 </div>
+
                 {/* Adjusted margin-top to reduce space */}
                 <div className="mt-1 text-center">
                   <Popup

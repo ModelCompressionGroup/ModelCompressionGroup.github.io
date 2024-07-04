@@ -61,12 +61,14 @@ const AnimatedCounter = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           {/* Block #1 */}
           <article className="w-full px-4 lg:w-1/3">
-            <div className="w-14 h-14 flex justify-center items-center rotate-0 mb-6">
+            <div className="relative w-14 h-14 flex justify-center items-center rotate-0 mb-6">
               <Image
                 src="/images/icons/artificial-intelligence.png"
                 alt="Artificial Intelligence Icon"
                 fill
                 style={{ objectFit: 'contain' }}
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                priority
               />
             </div>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
@@ -79,12 +81,14 @@ const AnimatedCounter = () => {
 
           {/* Block #2 */}
           <article className="w-full px-4 lg:w-1/3">
-            <div className="w-14 h-14 flex justify-center items-center rotate-0 mb-6">
+            <div className="relative w-14 h-14 flex justify-center items-center rotate-0 mb-6">
               <Image
                 src="/images/icons/lighting.png"
                 alt="Lighting Efficiency Icon"
                 fill
                 style={{ objectFit: 'contain' }}
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                priority
               />
             </div>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
@@ -97,12 +101,14 @@ const AnimatedCounter = () => {
 
           {/* Block #3 */}
           <article className="w-full px-4 lg:w-1/3">
-            <div className="w-14 h-14 flex justify-center items-center rotate-0 mb-6">
+            <div className="relative w-14 h-14 flex justify-center items-center rotate-0 mb-6">
               <Image
                 src="/images/icons/clock.png"
                 alt="Time Efficiency Icon"
                 fill
                 style={{ objectFit: 'contain' }}
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                priority
               />
             </div>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">

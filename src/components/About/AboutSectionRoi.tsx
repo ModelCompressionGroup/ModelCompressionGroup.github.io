@@ -34,12 +34,14 @@ const AboutSectionRoi = () => {
             <div className="w-full px-4 lg:w-5/12">
               <div className="max-w-[470px]">
                 <div className="mb-9">
-                  <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6">
+                  <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6 relative">
                     <Image
                       src="/images/icons/revenue.png"
                       alt="Revenue Growth Icon"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       style={{ objectFit: 'contain' }}
+                      priority
                     />
                   </div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -50,12 +52,14 @@ const AboutSectionRoi = () => {
                   </p>
                 </div>
                 <div className="mb-9">
-                  <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6">
+                  <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6 relative">
                     <Image
                       src="/images/icons/uptime.png"
-                      alt="Uptime Improvement Icon"
+                      alt="Revenue Growth Icon"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       style={{ objectFit: 'contain' }}
+                      priority
                     />
                   </div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -66,12 +70,14 @@ const AboutSectionRoi = () => {
                   </p>
                 </div>
                 <div className="mb-1">
-                  <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6">
+                  <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6 relative">
                     <Image
                       src="/images/icons/quality-control.png"
-                      alt="Quality Control Icon"
+                      alt="Revenue Growth Icon"
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       style={{ objectFit: 'contain' }}
+                      priority
                     />
                   </div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
