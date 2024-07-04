@@ -31,18 +31,20 @@ export default function RootLayout({
       </Script>
       {/* initApollo Script */}
       <Script id="init-apollo" strategy="afterInteractive">
-          {`function initApollo() {
-              var randomString = Math.random().toString(36).substring(7);
-              var scriptElement = document.createElement("script");
-              scriptElement.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + randomString;
-              scriptElement.async = true;
-              scriptElement.defer = true;
-              scriptElement.onload = function() {
-                  window.trackingFunctions.onLoad({ appId: "6665ec708bd70703a112d2e9" });
-              };
-              document.head.appendChild(scriptElement);
+        {`
+          function initApollo() {
+            var randomString = Math.random().toString(36).substring(7);
+            var scriptElement = document.createElement("script");
+            scriptElement.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + randomString;
+            scriptElement.async = true;
+            scriptElement.defer = true;
+            scriptElement.onload = function() {
+              window.trackingFunctions.onLoad({ appId: "6665ec708bd70703a112d2e9" });
+            };
+            document.head.appendChild(scriptElement);
           }
-          initApollo();`}
+          initApollo();
+        `}
       </Script>
       {/*
         <head /> will contain the components returned by the nearest parent
