@@ -116,7 +116,7 @@ const MailerLiteForm = () => {
             <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">
               <div className="ml-form-embedContent">
                 <h4>Newsletter</h4>
-                <p>Signup for our news and updates!</p>
+                <p>Keep up on the latest from us.</p>
               </div>
               {!isSubmitted ? (
                 <form

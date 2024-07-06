@@ -7,6 +7,7 @@ import Brands from "@/components/Brands";
 import AnimatedCounter from "@/components/Counter/AnimatedCounter";
 import { Metadata } from "next";
 import AboutSectionRoi from "@/components/About/AboutSectionRoi";
+import AboutSectionApproach from "@/components/About/AboutSectionApproach";
 
 export const metadata: Metadata = {
   title: "AmpleAI | Best Platform for AI Model Optimization",
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero />
       <AnimatedCounter />
       <ProblemSection />
+      <AboutSectionApproach />
       <ProductServiceSection />
       <AboutSectionRoi/>
       <BlogSection />
