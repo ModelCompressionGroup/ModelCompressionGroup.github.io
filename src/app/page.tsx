@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <AnimatedCounter />
       <ProblemSection />
       <ProductServiceSection />
-      <AnimatedCounter />
       <AboutSectionRoi/>
       <BlogSection />
       <Contact />
