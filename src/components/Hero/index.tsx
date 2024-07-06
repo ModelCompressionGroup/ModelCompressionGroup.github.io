@@ -14,25 +14,21 @@ const Hero = () => {
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
             <div className="relative z-10 text-center md:text-left">
               <h1 style={{ lineHeight: '130%' }} className="text-5xl font-bold leading-tight text-black sm:text-4xl md:text-5xl mb-6">
-                <span className="text-primary">AI Model Optimization </span> for Edge Devices.
+                Transform Your Edge Devices with <span className="text-primary">Expert AI Optimization</span>
               </h1>
               <h2 className="mb-10 text-xl font-semibold text-black hidden md:block">
-                Enhance Your Engineering Team’s Capabilities with Expert Tiny AI Model Optimization for Edge Devices.
+                Harness the power of real-time inference and AI model compression for outstanding results.
               </h2>
               <p className="mb-6 text-sm leading-relaxed text-body-color sm:text-lg md:text-xl">
-                We specialize in refining AI models for real-time inference, computational efficiency, and superior performance. Our services are tailored for IoT and embedded systems.
+                At the forefront of Tiny AI, we deliver specialized optimization services that refine AI models for peak performance. Enjoy the benefits of faster processing times and reduced latency, making your products smarter and more responsive.
               </p>
               <div className="flex justify-center md:justify-start flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                 <MailerLiteButton />
-                <ScheduleDemoButton />
               </div>
             </div>
           </div>
           <div className="w-full md:w-1/2 relative">
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-300 opacity-40 blur-[80px]"></div>
-            <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 hidden md:flex">
-              <NewTag text="Edge AI in Manufacturing Case" href="/blog" />
-            </div>
             <div className="relative w-full min-h-[350px] md:min-h-[450px] mt-8 md:mt-4"> 
               <Image
                 src="/images/hero-image.png"

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
-import MailerLiteButton from "../Common/MailerLiteContactButton";
 import Popup from "../Common/Popup";
 import ScheduleDemoButton from "../Common/ScheduleDemoButton";
 
@@ -67,20 +66,6 @@ const ProductServiceSection = () => {
                     className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                     priority
                   />
-                </div>
-
-                {/* Adjusted margin-top to reduce space */}
-                <div className="mt-1 text-center">
-                  <Popup
-                    triggerText="Learn mode"
-                    title="About Our Approach"
-                    imageSrc="/images/about/ampleai-timeline.png"
-                    imageAlt="Detailed explanation for AI Model Optimization Process by Ample AI"
-                  >
-                    <p className="text-lg text-body-color">
-                      The Ample AI approach reverses the traditional compression process by focusing on the desired outcome on the edge device from the beginning. This enables the use of larger, high-performance models upfront, which are then compressed to maximize edge device resource utilization.
-                    </p>
-                  </Popup>
                 </div>
               </div>
             </div>
