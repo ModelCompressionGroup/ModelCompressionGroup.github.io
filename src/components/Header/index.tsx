@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import MailerLiteButton from "../Common/MailerLiteContactButton"; 
 import menuData from "./menuData";
 import ScheduleDemoButton from "../Common/ScheduleDemoButton";
 
@@ -160,7 +159,12 @@ const Header = () => {
                 </nav>
               </div>
               <div className="hidden lg:flex items-center justify-end pr-4 lg:pr-0">
-                <ScheduleDemoButton/>
+                <Link href="https://tinymlhub.com" className="text-base text-dark hover:text-primary dark:text-white/70 dark:hover:text-white">
+                  Login
+                </Link>
+                <div className="ml-4">
+                  <ScheduleDemoButton />
+                </div>
               </div>
             </div>
           </div>
