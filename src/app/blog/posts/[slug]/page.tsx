@@ -20,7 +20,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   const matterResult = loadBlogPost(slug);
 
   // Combining static text with category from matterResult
-  const titleSuffix = matterResult.category ? ` - ${matterResult.category}` : '';
+  const titleSuffix = matterResult.title ? ` - ${matterResult.title}` : '';
   const fullTitle = `Ample AI | Edge AI Case Study${titleSuffix}`;
 
   return {
