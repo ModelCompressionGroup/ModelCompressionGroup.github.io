@@ -22,14 +22,14 @@ const AboutSectionApproach = () => {
         />
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="relative w-full h-64">
-                <Image
-                  src="/images/about/ampleai-timeline-nobg.png"
-                  alt="Detailed explanation for AI Model Optimization Process by Ample AI"
-                  fill
-                  objectFit="contain"
-                  className="rounded"
-                />
-              </div>
+            <Image
+              src="/images/about/ampleai-timeline-nobg.png"
+              alt="Detailed explanation for AI Model Optimization Process by Ample AI"
+              fill
+              style={{ objectFit: 'contain' }}
+              className="rounded"
+            />
+          </div>
         </div>
       </div>
     </section>

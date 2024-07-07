@@ -52,70 +52,40 @@ const AnimatedCounter = () => {
 
   return (
     <section className="py-8 md:py-10 lg:py-14" ref={sectionRef}>
-      <div className="container">
+      <div className="container mx-auto text-center">
         <SectionTitle
           title="Your Tiny AI product will benefit from ..." 
           paragraph=""
-          mb="20px"
+          mb="40px"
         />
-        <div className="-mx-4 flex flex-wrap items-center">
+        <div className="-mx-4 flex flex-wrap justify-center items-center">
           {/* Block #1 */}
-          <article className="w-full px-4 lg:w-1/3">
-            <div className="relative w-14 h-14 flex justify-center items-center rotate-0 mb-6">
-              <Image
-                src="/images/icons/artificial-intelligence.png"
-                alt="Artificial Intelligence Icon"
-                fill
-                style={{ objectFit: 'contain' }}
-                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                priority
-              />
-            </div>
+          <article className="w-full px-4 lg:w-1/3 mb-6 md:mb-0">
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
               <CountUp end={count1} duration={3} />x
             </h3>
-            <h3 className="text-3xl inline-flex font-semibold bg-clip-text text-primary mb-2">
-              Faster Inference
+            <h3 className="text-2xl inline-flex font-semibold bg-clip-text text-primary mb-2">
+              ⚡ Faster Inference
             </h3>
           </article>
 
           {/* Block #2 */}
-          <article className="w-full px-4 lg:w-1/3">
-            <div className="relative w-14 h-14 flex justify-center items-center rotate-0 mb-6">
-              <Image
-                src="/images/icons/lighting.png"
-                alt="Lighting Efficiency Icon"
-                fill
-                style={{ objectFit: 'contain' }}
-                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                priority
-              />
-            </div>
+          <article className="w-full px-4 lg:w-1/3 mb-6 md:mb-0">
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
               <CountUp end={count2} duration={3} />x
             </h3>
-            <h3 className="text-3xl inline-flex font-semibold bg-clip-text text-primary mb-2">
-              Longer Battery Life
+            <h3 className="text-2xl inline-flex font-semibold bg-clip-text text-primary mb-2">
+              🔋 Longer Battery Life
             </h3>
           </article>
 
           {/* Block #3 */}
-          <article className="w-full px-4 lg:w-1/3">
-            <div className="relative w-14 h-14 flex justify-center items-center rotate-0 mb-6">
-              <Image
-                src="/images/icons/clock.png"
-                alt="Time Efficiency Icon"
-                fill
-                style={{ objectFit: 'contain' }}
-                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                priority
-              />
-            </div>
+          <article className="w-full px-4 lg:w-1/3 mb-6 md:mb-0">
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-2">
               <CountUp end={count3} duration={3} />%
             </h3>
-            <h3 className="text-3xl inline-flex font-semibold bg-clip-text text-primary mb-2">
-              Faster Time To Market
+            <h3 className="text-2xl inline-flex font-semibold bg-clip-text text-primary mb-2">
+              ⏱️ Faster Time To Market
             </h3>
           </article>
         </div>

@@ -1,13 +1,17 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
+import HorizontalLine from "../Common/HorizontalLine";
 
 const ProblemSection = () => {
   return (
     <section id="features" className="py-16 md:py-20 lg:py-28">
       <div className="container">
+        <div className="mb-8">
+          <HorizontalLine/>
+        </div>
         <SectionTitle
-          title="Efficient Embedded AI: No More Wasted Efforts"
+          title="Efficient Embedded AI - No More Wasted Efforts"
           paragraph="AI Engineering Teams Waste 50% of Their Time on Manual AI Model Optimization"
           center
         />
