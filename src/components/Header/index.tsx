@@ -67,7 +67,7 @@ const Header = () => {
                     className="hidden w-auto h-6 dark:block" // Adjust height here
                   />
                   <span className="ml-2 text-xl font-bold text-secondary whitespace-nowrap dark:text-white">
-                    Ample AI
+                    AmpleAI
                   </span>
                 </div>
               </Link>
@@ -162,7 +162,7 @@ const Header = () => {
                 <Link href="https://tinymlhub.com" className="text-base text-dark hover:text-primary dark:text-white/70 dark:hover:text-white">
                   Login
                 </Link>
-                <div className="ml-4">
+                <div className="ml-6">
                   <ScheduleDemoButton />
                 </div>
               </div>
