@@ -1,4 +1,4 @@
-<h1>Ample AI</h1>   
+<h1>AmpleAI</h1>   
 
 Landing Page
 

@@ -1,7 +1,5 @@
-import NewTag from "../Common/NewTag";
 import Image from "next/image";
 import MailerLiteButton from "../Common/MailerLiteContactButton";
-import ScheduleDemoButton from "../Common/ScheduleDemoButton";
 
 const Hero = () => {
   return (
@@ -32,7 +30,7 @@ const Hero = () => {
             <div className="relative w-full min-h-[350px] md:min-h-[450px] mt-8 md:mt-4"> 
               <Image
                 src="/images/hero-image.png"
-                alt="Hero image for Ample AI, a man training a robot with Tiny AI hub"
+                alt="Hero image for AmpleAI, a man training a robot with Tiny AI hub"
                 fill
                 style={{
                   objectFit: 'contain',

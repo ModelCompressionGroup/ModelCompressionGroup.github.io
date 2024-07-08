@@ -21,12 +21,12 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 
   // Combining static text with category from matterResult
   const titleSuffix = matterResult.title ? ` - ${matterResult.title}` : '';
-  const fullTitle = `Ample AI | Edge AI Case Study${titleSuffix}`;
+  const fullTitle = `AmpleAI | Edge AI Case Study${titleSuffix}`;
 
   return {
     title: fullTitle,
-    description: matterResult.preview || 'Explore our case studies on edge AI solutions by Ample AI.',
-    keywords: (matterResult.keywords || 'case studies, edge AI, AI deployment, Ample AI, deploy edge ai to chip').split(','),
+    description: matterResult.preview || 'Explore our case studies on edge AI solutions by AmpleAI.',
+    keywords: (matterResult.keywords || 'case studies, edge AI, AI deployment, AmpleAI, deploy edge ai to chip').split(','),
   };
 }
 

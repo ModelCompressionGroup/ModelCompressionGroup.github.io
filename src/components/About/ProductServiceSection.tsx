@@ -49,7 +49,7 @@ const ProductServiceSection = () => {
                 <div className="relative w-full h-0" style={{ paddingBottom: '96%' }}>
                   <Image
                     src="/images/about/tinymlhub-3.png"
-                    alt="Ample AI Tiny AI Hub for AI Model Optimization"
+                    alt="AmpleAI Tiny AI Hub for AI Model Optimization"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "contain" }}
@@ -58,7 +58,7 @@ const ProductServiceSection = () => {
                   />
                   <Image
                     src="/images/about/tinymlhub-3.png"
-                    alt="Ample AI Tiny AI Hub for AI Model Optimization"
+                    alt="AmpleAI Tiny AI Hub for AI Model Optimization"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "contain" }}

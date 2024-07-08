@@ -6,8 +6,8 @@ import BlogCard from '@/components/Blog/BlogCard';
 import ScheduleDemoButton from '@/components/Common/ScheduleDemoButton';
 
 export const metadata: Metadata = {
-  title: "Ample AI: Edge AI Case Studies",
-  description: "Discover how Ample AI empowers engineering teams with edge AI solutions. Explore our edge AI case studies.",
+  title: "AmpleAI: Edge AI Case Studies",
+  description: "Discover how AmpleAI empowers engineering teams with edge AI solutions. Explore our edge AI case studies.",
   keywords: "edge artificial intelligence, edge ai use cases, machine learning at the edge, edge ai examples"
 };
 
@@ -18,14 +18,14 @@ export default function BlogPage() {
     <>
       <Breadcrumb
         pageName="Case Studies"
-        description="Explore our case studies to see how Ample AI is empowering engineering teams to pioneer edge AI solutions across diverse industries."
+        description="Explore our case studies to see how AmpleAI is empowering engineering teams to pioneer edge AI solutions across diverse industries."
       />
 
       <section className="pb-[60px] pt-[30px]"> {/* Reduced padding */}
         <div className="container">
           <div className="relative z-10 w-full mb-6 overflow-hidden rounded-md bg-primary bg-opacity-10 p-6 md:p-7 lg:p-6 xl:p-7"> {/* Reduced padding and margin */}
             <p className="text-left text-base font-medium italic text-body-color">
-            At Ample AI, our mission is to empower engineering teams to pioneer edge AI. We provide cutting-edge solutions and expert support to help teams overcome the challenges of AI model development and integration on edge devices, enabling them to lead the way in technological innovation.
+            At AmpleAI, our mission is to empower engineering teams to pioneer edge AI. We provide cutting-edge solutions and expert support to help teams overcome the challenges of AI model development and integration on edge devices, enabling them to lead the way in technological innovation.
             </p>
             <span className="absolute left-0 top-0 z-[-1]">
               <svg

@@ -14,22 +14,10 @@ const menuData: Menu[] = [
       },
       {
         id: 12,
-        title: "Model Compression",
-        path: "",
+        title: "Model Optimization",
+        path: "https://tinymlhub.com",
         newTab: false
-      },
-      {
-        id: 13,
-        title: "Model Selection",
-        path: "",
-        newTab: false
-      },
-      {
-        id: 14,
-        title: "Expert Service",
-        path: "",
-        newTab: false
-      },
+      }
     ],
   },
   {
@@ -53,13 +41,7 @@ const menuData: Menu[] = [
       {
         id: 31,
         title: "About Us",
-        path: "",
-        newTab: false
-      },
-      {
-        id: 32,
-        title: "Careers",
-        path: "",
+        path: "/company/about",
         newTab: false
       },
     ],

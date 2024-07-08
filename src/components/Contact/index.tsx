@@ -31,7 +31,7 @@ const Contact = () => {
         <div className="container">
           <SectionTitle
             title="Schedule a free demo!"
-            paragraph="Get in touch with our experts for a free consultation and discover how Ample AI can help you optimize AI models for your edge application."
+            paragraph="Get in touch with our experts for a free consultation and discover how AmpleAI can help you optimize AI models for your edge application."
             center
           />
           <div className="flex justify-center">

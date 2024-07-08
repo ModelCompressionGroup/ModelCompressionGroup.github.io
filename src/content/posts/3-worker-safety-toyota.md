@@ -1,7 +1,7 @@
 ---
 title: "Worker Safety: Toyota"
 date: "2024-06-16"
-author: "Ample AI"
+author: "AmpleAI"
 preview: "Edge AI enhances Toyota's worker safety with real-time monitoring and hazard detection and reducing accidents. Key for edge AI applications."
 slug: "3-worker-safety-toyota"
 category: "Supply Chain"

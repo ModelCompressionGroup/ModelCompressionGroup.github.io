@@ -17,14 +17,14 @@ const AboutSectionApproach = () => {
         </div>
         <SectionTitle
           title="About Our Approach 🚀" 
-          paragraph="The Ample AI approach reverses the traditional compression process by focusing on the desired outcome on the edge device from the beginning. This enables the use of larger, high-performance models upfront, which are then compressed to maximize edge device resource utilization."
+          paragraph="The AmpleAI approach reverses the traditional compression process by focusing on the desired outcome on the edge device from the beginning. This enables the use of larger, high-performance models upfront, which are then compressed to maximize edge device resource utilization."
           mb="20px"
         />
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="relative w-full h-64">
             <Image
               src="/images/about/ampleai-timeline-nobg.png"
-              alt="Detailed explanation for AI Model Optimization Process by Ample AI"
+              alt="Detailed explanation for AI Model Optimization Process by AmpleAI"
               fill
               style={{ objectFit: 'contain' }}
               className="rounded"

@@ -1,7 +1,7 @@
 ---
 title: "Customizable Production: Tesla"
 date: "2024-06-01"
-author: "Ample AI"
+author: "AmpleAI"
 preview: "Edge AI boosts Tesla's production with real-time customization, reducing downtime and enhancing efficiency. See how edge AI applications lead innovation."
 slug: "1-customizable-production-tesla"
 category: "Manufacturing"

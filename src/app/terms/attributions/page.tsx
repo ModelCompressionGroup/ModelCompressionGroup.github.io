@@ -2,7 +2,7 @@ import Breadcrumb from '@/components/Common/Breadcrumb';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Ample AI: Edge AI References",
+  title: "AmpleAI: Edge AI References",
   description: "Resources used to create the website.",
   keywords: "icons, images"
 };
