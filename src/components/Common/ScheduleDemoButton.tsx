@@ -29,7 +29,7 @@ const ScheduleDemoButton = () => {
       onClick={handleClick}
       className="inline-block min-w-[205px] px-8 py-2 font-medium text-white bg-primary border border-white rounded-full hover:bg-white hover:text-primary"
     >
-      Schedule a Demo
+      Request a Demo
     </button>
   );
 };
