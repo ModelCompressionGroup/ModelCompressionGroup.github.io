@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords: "icons, images"
 };
 
-export default function Attributions() {
+export default function PrivacyPolicy() {
   return (
     <>
       <Breadcrumb
