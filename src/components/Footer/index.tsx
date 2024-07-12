@@ -62,6 +62,14 @@ const Footer = () => {
                     Attributions & Sources
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/terms/privacy-policy"
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Privacy Policy
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
