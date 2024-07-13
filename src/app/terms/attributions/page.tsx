@@ -33,6 +33,9 @@ export default function Attributions() {
               <li>Manual icons created by LAFS - <a href="https://www.flaticon.com/free-icons/manual" title="manual icons">Flaticon</a></li>
               <li>Unplanned icons created by VectorPortal - <a href="https://www.flaticon.com/free-icons/unplanned" title="unplanned icons">Flaticon</a></li>
               <li>Constraint icons created by logisstudio - <a href="https://www.flaticon.com/free-icons/constraint" title="constraint icons">Flaticon</a></li>
+              <li>Location icons created by Freepik - <a href="https://www.flaticon.com/free-icons/location" title="location icons">Flaticon</a></li>
+              <li>Email icons created by Freepik - <a href="https://www.flaticon.com/free-icons/email" title="email icons">Flaticon</a></li>
+              <li>Linkedin icons created by fauzin idea - <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Flaticon</a></li>
             </ul>
             <p className="text-left text-base font-medium italic text-body-color mb-2">
               Photos:

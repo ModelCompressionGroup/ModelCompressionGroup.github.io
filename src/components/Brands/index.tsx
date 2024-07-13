@@ -38,15 +38,17 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
         style={{ aspectRatio: "unset" }} // Ensure aspect ratio is unset to avoid conflicts
       >
-        <div style={{ width: "100%", height: "100%" }}>
+        <div style={{ width: "100%", height: "100%", position: 'relative' }}>
           <Image
             src={image}
             alt={name}
             fill
-            style={{ objectFit: 'contain' }} // Adjust objectFit as needed (contain, cover, etc.)
+            style={{ objectFit: 'contain' }}
             className="block"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
+
       </a>
     </div>
   );

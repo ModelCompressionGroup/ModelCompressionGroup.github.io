@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Brands from '@/components/Brands';
-import MailerLiteButton from '@/components/Common/MailerLiteContactButton';
+import ScheduleDemoButton from '@/components/Common/ScheduleDemoButton';
 
 export const metadata: Metadata = {
   title: "About AmpleAI: Revolutionizing Edge AI",
@@ -28,7 +28,7 @@ const AboutUs = () => {
                 Our journey at AmpleAI began in the intricate fields of Automotive IoT, Robotics, and Physics, where we initially tackled the challenges of AI model optimization through manual, iterative processes. Faced with the tedious nature of this work, we engaged with hundreds of engineers across industries, discovering that the inefficiencies in edge AI development were a widespread concern. This insight led to the founding of AmpleAI, with a dedicated purpose to streamline and enhance the AI development cycle. Today, we empower engineers, companies, and even robots to deliver more intelligent, user-friendly products at a significantly faster pace, revolutionizing how intelligent devices are brought to the edge.
               </p>
               <div className="flex justify-center space-y-4">
-                <MailerLiteButton/>
+                <ScheduleDemoButton/>
               </div>
             </div>
           </div>
