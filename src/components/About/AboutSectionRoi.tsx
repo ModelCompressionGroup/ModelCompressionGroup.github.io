@@ -88,9 +88,6 @@ const AboutSectionRoi = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex justify-center md:justify-start flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-8">
-                  <ScheduleDemoButton />
-              </div>
             </div>
           </div>
         </div>
