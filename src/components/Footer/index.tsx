@@ -1,7 +1,7 @@
 // components/Footer.tsx
 import Image from "next/image";
 import Link from "next/link";
-import NewsletterBox from "../Contact/NewsLatterBox";
+import ContactInfoCard from "../Contact/ContactInfoCard";
 
 const Footer = () => {
   return (
@@ -77,7 +77,7 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-4/12">
             {/* Adjusted to take full width on larger screens */}
             <div className="mb-12 lg:mb-16">
-              <NewsletterBox />
+              <ContactInfoCard/>
             </div>
           </div>
         </div>

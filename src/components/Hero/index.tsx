@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MailerLiteButton from "../Common/MailerLiteContactButton";
+import ScheduleDemoButton from "../Common/ScheduleDemoButton";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
                 At the forefront of Tiny AI, we deliver specialized optimization services that refine AI models for peak performance. Enjoy the benefits of faster processing times and reduced latency, making your products smarter and more responsive.
               </p>
               <div className="flex justify-center md:justify-start flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                <MailerLiteButton />
+                <ScheduleDemoButton />
               </div>
             </div>
           </div>

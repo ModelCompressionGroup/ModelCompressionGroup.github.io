@@ -27,7 +27,7 @@ const ScheduleDemoButton = () => {
   return (
     <button
       onClick={handleClick}
-      className="inline-block min-w-[205px] px-8 py-2 font-medium text-white bg-primary border border-white rounded-full hover:bg-white hover:text-primary"
+      className="inline-block min-w-[205px] px-8 py-2 font-medium text-white bg-primary border border-white rounded-full hover:bg-white hover:text-primary hover:border-primary"
     >
       Request a Demo
     </button>
