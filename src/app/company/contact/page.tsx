@@ -18,13 +18,13 @@ export default function ContactPage() {
       />
 
       <section className="pb-[60px] pt-[30px]">
-        <div className="container mx-auto flex justify-center">
-          <div className="flex flex-row w-full">
-            <div className="flex-1 w-2/3 p-4">
-                <Script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer />
-                <div className="elfsight-app-dde84adf-e68b-4589-be6d-2bd0fac2ea8f" data-elfsight-app-lazy></div>
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row w-full">
+            <div className="md:flex-1 md:w-2/3 p-4">
+              <Script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer />
+              <div className="elfsight-app-dde84adf-e68b-4589-be6d-2bd0fac2ea8f" data-elfsight-app-lazy></div>
             </div>
-            <div className="w-1/3 p-4">
+            <div className="md:w-1/3 p-4">
               <ContactInfoCard />
             </div>
           </div>
