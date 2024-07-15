@@ -5,8 +5,10 @@ import { useEffect } from 'react';
 const ScheduleDemoButton = () => {
   const handleClick = () => {
     if (window.location.pathname !== '/') {
-      window.location.href = '/?scrollTo=contact';
+      // Redirect to the /company/contact page instead of adding a query parameter
+      window.location.href = '/company/contact';
     } else {
+      // Scroll to the contact section if on the home page
       const contactSection = document.getElementById('contact');
       if (contactSection) {
         contactSection.scrollIntoView({ behavior: 'smooth' });
@@ -15,6 +17,7 @@ const ScheduleDemoButton = () => {
   };
 
   useEffect(() => {
+    // Check for scrollTo parameter when the component mounts
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('scrollTo') === 'contact') {
       const contactSection = document.getElementById('contact');

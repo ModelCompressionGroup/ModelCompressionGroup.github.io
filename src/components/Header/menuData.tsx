@@ -44,6 +44,12 @@ const menuData: Menu[] = [
         path: "/company/about",
         newTab: false
       },
+      {
+        id: 32,
+        title: "Contact",
+        path: "/company/contact",
+        newTab: false
+      },
     ],
   }
 ];
