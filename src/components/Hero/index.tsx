@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-300 opacity-40 blur-[80px]"></div>
             <div className="relative w-full min-h-[350px] md:min-h-[450px] mt-8 md:mt-4"> 
               <Image
-                src="/images/hero-image.png"
+                src="/images/hero-image.webp"
                 alt="Hero image for AmpleAI, a man training a robot with Tiny AI hub"
                 fill
                 style={{
