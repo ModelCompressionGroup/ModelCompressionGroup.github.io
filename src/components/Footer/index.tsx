@@ -12,14 +12,14 @@ const Footer = () => {
             <div className="mb-12 max-w-[360px] lg:mb-16">
               <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo.webp"
                     alt="logo"
                     width={100} 
                     height={100}
                     className="w-auto h-6 dark:hidden"
                   />
                   <Image
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo.webp"
                     alt="logo"
                     width={100} // Adjust width
                     height={100} // Adjust height to match text

@@ -23,7 +23,7 @@ const AboutSectionApproach = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="relative w-full h-64">
             <Image
-              src="/images/about/ampleai-timeline-nobg.png"
+              src="/images/about/ampleai-timeline-nobg.webp"
               alt="Detailed explanation for AI Model Optimization Process by AmpleAI"
               fill
               style={{ objectFit: 'contain' }}

@@ -9,7 +9,7 @@ const ContactInfoCard = () => {
             <li className="flex items-center mb-4">
                 <div className="w-8 h-8 flex justify-center items-center relative">
                     <Image
-                        src="/images/icons/email.png"
+                        src="/images/icons/email.webp"
                         alt="Email Icon"
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -25,7 +25,7 @@ const ContactInfoCard = () => {
             <li className="flex items-center mb-4">
                 <div className="w-8 h-8 flex justify-center items-center relative">
                     <Image
-                        src="/images/icons/placeholder.png"
+                        src="/images/icons/placeholder.webp"
                         alt="Location Icon"
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -41,7 +41,7 @@ const ContactInfoCard = () => {
             <li className="flex items-center mb-4">
                 <div className="w-8 h-8 flex justify-center items-center relative">
                     <Image
-                        src="/images/icons/business.png"
+                        src="/images/icons/business.webp"
                         alt="Revenue Growth Icon"
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

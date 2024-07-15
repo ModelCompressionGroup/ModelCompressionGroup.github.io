@@ -48,7 +48,7 @@ const ProductServiceSection = () => {
               <div className="relative mx-auto aspect-[25/24] max-w-[700px] lg:mr-0">
                 <div className="relative w-full h-0" style={{ paddingBottom: '96%' }}>
                   <Image
-                    src="/images/about/tinymlhub-3.png"
+                    src="/images/about/tinymlhub-3.webp"
                     alt="AmpleAI Tiny AI Hub for AI Model Optimization"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -57,7 +57,7 @@ const ProductServiceSection = () => {
                     priority
                   />
                   <Image
-                    src="/images/about/tinymlhub-3.png"
+                    src="/images/about/tinymlhub-3.webp"
                     alt="AmpleAI Tiny AI Hub for AI Model Optimization"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

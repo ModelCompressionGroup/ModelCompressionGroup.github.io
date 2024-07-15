@@ -53,14 +53,14 @@ const Header = () => {
               >
                 <div className="flex items-center">
                   <Image
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo.webp"
                     alt="logo"
                     width={50} // Adjust width
                     height={50} // Adjust height to match text
                     className="w-auto h-6 dark:hidden" // Adjust height here
                   />
                   <Image
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo.webp"
                     alt="logo"
                     width={50} // Adjust width
                     height={50} // Adjust height to match text

@@ -36,7 +36,7 @@ const AboutSectionRoi = () => {
                 <div className="mb-9">
                   <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6 relative">
                     <Image
-                      src="/images/icons/revenue.png"
+                      src="/images/icons/revenue.webp"
                       alt="Revenue Growth Icon"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -54,7 +54,7 @@ const AboutSectionRoi = () => {
                 <div className="mb-9">
                   <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6 relative">
                     <Image
-                      src="/images/icons/uptime.png"
+                      src="/images/icons/uptime.webp"
                       alt="Revenue Growth Icon"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -72,7 +72,7 @@ const AboutSectionRoi = () => {
                 <div className="mb-1">
                   <div className="w-8 h-8 flex justify-center items-center rotate-3 mb-6 relative">
                     <Image
-                      src="/images/icons/quality-control.png"
+                      src="/images/icons/quality-control.webp"
                       alt="Revenue Growth Icon"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
