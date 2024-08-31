@@ -70,3 +70,4 @@ By optimizing small language models for edge deployment, the company successfull
 - [Model Compression](https://www.sciencedirect.com/topics/computer-science/model-compression)
 - [Small Language Models: Are SLMs Set to Transform AI?](https://hyperight.com/small-language-models-are-slms-set-to-transform-ai/)
 - [Edge-AI trends in 2024](https://medium.com/@natishalom/edge-ai-trends-in-2024-c5a487a85f1e)
+- [Photo by Jakub Zerdzicki](https://www.pexels.com/photo/smart-home-devices-smartphone-screen-mockup-18509543)
