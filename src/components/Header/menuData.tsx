@@ -8,7 +8,7 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 11,
-        title: "Case Studies",
+        title: "Use Cases",
         path: "/blog",
         newTab: false
       },
@@ -16,6 +16,12 @@ const menuData: Menu[] = [
         id: 12,
         title: "Model Optimization",
         path: "https://tinymlhub.com",
+        newTab: false
+      },
+      {
+        id: 13,
+        title: "Small Language Models (SLM)",
+        path: "/blog/posts/0-small-language-models",
         newTab: false
       }
     ],
