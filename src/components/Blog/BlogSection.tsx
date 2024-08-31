@@ -19,7 +19,7 @@ const BlogSection = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest Case Studies"
+          title="Our Latest Use Cases"
           paragraph="See how Edge AI solutions can transform legacy systems into high-efficiency operations. Explore our Edge AI use cases."
           center
         />
