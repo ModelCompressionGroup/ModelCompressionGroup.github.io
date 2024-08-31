@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Edge AI with Small Language Models"
+title: "Edge AI with Small Language Models"
 date: "2024-08-31"
 author: "AmpleAI"
 preview: "Discover how compressing small language models for edge hardware can revolutionize industries from smart homes to industrial IoT. Learn about real-world applications and optimization techniques."
