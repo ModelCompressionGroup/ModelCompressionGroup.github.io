@@ -21,12 +21,12 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 
   // Combining static text with category from matterResult
   const titleSuffix = matterResult.title ? ` - ${matterResult.title}` : '';
-  const fullTitle = `AmpleAI | Edge AI Case Study${titleSuffix}`;
+  const fullTitle = `AmpleAI | Edge AI Use-Cases${titleSuffix}`;
 
   return {
     title: fullTitle,
-    description: matterResult.preview || 'Explore our case studies on edge AI solutions by AmpleAI.',
-    keywords: (matterResult.keywords || 'case studies, edge AI, AI deployment, AmpleAI, deploy edge ai to chip').split(','),
+    description: matterResult.preview || 'Explore our use cases on edge AI solutions by AmpleAI.',
+    keywords: (matterResult.keywords || 'use cases, edge AI, AI deployment, AmpleAI, deploy edge ai to chip').split(','),
   };
 }
 
@@ -55,7 +55,7 @@ export default async function BlogPost({ params }) {
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
-                            src="/images/logo/logo.png"
+                            src="/images/logo/logo.webp"
                             alt="author"
                             fill
                           />
