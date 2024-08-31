@@ -6,8 +6,8 @@ import BlogCard from '@/components/Blog/BlogCard';
 import ScheduleDemoButton from '@/components/Common/ScheduleDemoButton';
 
 export const metadata: Metadata = {
-  title: "AmpleAI: Edge AI Case Studies",
-  description: "Discover how AmpleAI empowers engineering teams with edge AI solutions. Explore our edge AI case studies.",
+  title: "AmpleAI: Edge AI Use Cases",
+  description: "Discover how AmpleAI empowers engineering teams with edge AI solutions. Explore our edge AI use cases.",
   keywords: "edge artificial intelligence, edge ai use cases, machine learning at the edge, edge ai examples"
 };
 
@@ -17,8 +17,8 @@ export default function BlogPage() {
   return (
     <>
       <Breadcrumb
-        pageName="Case Studies"
-        description="Explore our case studies to see how AmpleAI is empowering engineering teams to pioneer edge AI solutions across diverse industries."
+        pageName="Use Cases"
+        description="Explore our use cases to see how AmpleAI is empowering engineering teams to pioneer edge AI solutions across diverse industries."
       />
 
       <section className="pb-[60px] pt-[30px]"> {/* Reduced padding */}
