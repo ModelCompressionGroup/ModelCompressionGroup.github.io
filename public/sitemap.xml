@@ -3,7 +3,7 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://ampleai.io/</loc>
-		<lastmod>2024-07-07</lastmod>
+		<lastmod>2024-08-31</lastmod>
 	</url>
 	<url>
 		<loc>https://ampleai.io/blog</loc>
@@ -13,7 +13,11 @@
 		<loc>https://ampleai.io/company/about</loc>
 		<lastmod>2024-07-07</lastmod>
 	</url>
-	<!-- Case Study Pages -->
+	<!-- Use-Case Pages -->
+	<url>
+		<loc>https://ampleai.io/blog/posts/0-small-language-models</loc>
+		<lastmod>2024-08-31</lastmod>
+	</url>
 	<url>
 		<loc>https://ampleai.io/blog/posts/1-customizable-production-tesla</loc>
 		<lastmod>2024-07-07</lastmod>
