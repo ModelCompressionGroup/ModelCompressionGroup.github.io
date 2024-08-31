@@ -21,7 +21,7 @@ const menuData: Menu[] = [
       {
         id: 13,
         title: "Small Language Models (SLM)",
-        path: "https://tinymlhub.com",
+        path: "/blog/posts/0-small-language-models",
         newTab: false
       }
     ],
