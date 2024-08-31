@@ -17,12 +17,6 @@ const menuData: Menu[] = [
         title: "Model Optimization",
         path: "https://tinymlhub.com",
         newTab: false
-      },
-      {
-        id: 13,
-        title: "Small Language Models (SLM)",
-        path: "/blog/posts/0-small-language-models",
-        newTab: false
       }
     ],
   },
